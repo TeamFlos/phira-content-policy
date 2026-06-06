@@ -1,0 +1,45 @@
+# Silent Answer
+
+[[track]]
+name = "Loveless Dress"
+artist = "かねこちはる"
+artist_ids = ["かねこちはる"]
+status = "forbidden"
+song_pack = "Silent Answer"
+section = "主线 第一幕"
+
+[[track]]
+name = "Last"
+artist = "onoken"
+artist_ids = ["onoken"]
+status = "forbidden"
+song_pack = "Silent Answer"
+duration = "2:32"
+note = "光&对立（Reunion）的角色曲"
+section = "主线 第一幕"
+
+[[track]]
+name = "Last｜Moment"
+artist = "onoken"
+artist_ids = ["onoken"]
+status = "forbidden"
+song_pack = "Silent Answer"
+duration = "2:32"
+section = "主线 第一幕"
+
+[[track]]
+name = "Last｜Eternity"
+artist = "onoken"
+artist_ids = ["onoken"]
+status = "forbidden"
+song_pack = "Silent Answer"
+duration = "2:32"
+section = "主线 第一幕"
+
+[[track]]
+name = "Callima Karma"
+artist = "t+pazolite vs Feryquitous"
+artist_ids = ["t_pazolite", "feryquitous"]
+status = "forbidden"
+song_pack = "Silent Answer"
+section = "主线 第一幕"

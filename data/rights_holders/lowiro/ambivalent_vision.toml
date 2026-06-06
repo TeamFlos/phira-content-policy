@@ -1,0 +1,53 @@
+# Ambivalent Vision
+
+[[track]]
+name = "vsキミ戦争"
+artist = "U-ske、lueur"
+artist_ids = ["u-ske", "lueur"]
+status = "forbidden"
+song_pack = "Ambivalent Vision"
+section = "支线"
+
+[[track]]
+name = "Blossoms"
+artist = "T2Kazuya"
+artist_ids = ["t2kazuya"]
+status = "forbidden"
+song_pack = "Ambivalent Vision"
+section = "支线"
+
+[[track]]
+name = "Moonheart"
+artist = "翡乃イスカ"
+artist_ids = ["翡乃イスカ"]
+status = "forbidden"
+song_pack = "Ambivalent Vision"
+duration = "2:13"
+section = "支线"
+
+[[track]]
+name = "Genesis"
+artist = "Iris"
+artist_ids = ["iris"]
+status = "forbidden"
+song_pack = "Ambivalent Vision"
+section = "支线"
+
+[[track]]
+name = "Lethaeus"
+artist = "Silentroom"
+artist_ids = ["silentroom"]
+status = "forbidden"
+song_pack = "Ambivalent Vision"
+duration = "2:27"
+note = "忘却的角色曲"
+section = "支线"
+
+[[track]]
+name = "corps-sans-organes"
+artist = "cybermiso"
+artist_ids = ["cybermiso"]
+status = "forbidden"
+song_pack = "Ambivalent Vision"
+duration = "2:36"
+section = "支线"

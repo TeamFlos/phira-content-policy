@@ -1,0 +1,35 @@
+# Adverse Prelude
+
+[[track]]
+name = "Vindication"
+artist = "Laur"
+artist_ids = ["laur"]
+status = "forbidden"
+song_pack = "Adverse Prelude"
+duration = "2:30"
+section = "主线 第一幕"
+
+[[track]]
+name = "Heavensdoor"
+artist = "LeaF"
+artist_ids = ["leaf"]
+status = "forbidden"
+song_pack = "Adverse Prelude"
+section = "主线 第一幕"
+
+[[track]]
+name = "BLRINK"
+artist = "Sta"
+artist_ids = ["sta"]
+status = "forbidden"
+song_pack = "Adverse Prelude"
+duration = "2:42"
+section = "主线 第一幕"
+
+[[track]]
+name = "Ringed Genesis"
+artist = "Edelritter"
+artist_ids = ["edelritter"]
+status = "forbidden"
+song_pack = "Adverse Prelude"
+section = "主线 第一幕"

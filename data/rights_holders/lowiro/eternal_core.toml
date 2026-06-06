@@ -1,0 +1,64 @@
+# Eternal Core
+
+[[track]]
+name = "memoryfactory.lzh"
+artist = "Frums"
+artist_ids = ["frums"]
+status = "forbidden"
+song_pack = "Eternal Core"
+section = "主线 第一幕"
+
+[[track]]
+name = "Lumia"
+artist = "sky_delta"
+artist_ids = ["sky_delta"]
+status = "forbidden"
+song_pack = "Eternal Core"
+section = "主线 第一幕"
+
+[[track]]
+name = "虚空の夢"
+artist = "ak+q、Sennzai"
+artist_ids = ["ak_q", "sennzai"]
+status = "forbidden"
+song_pack = "Eternal Core"
+duration = "2:53"
+note = "Arcaea两周年纪念曲"
+section = "主线 第一幕"
+
+[[track]]
+name = "Essence of Twilight"
+artist = "Essence of Twilight"
+artist_ids = ["essence_of_twilight"]
+status = "forbidden"
+song_pack = "Eternal Core"
+section = "主线 第一幕"
+
+[[track]]
+name = "Sheriruth"
+artist = "Team Grimoire"
+artist_ids = ["team_grimoire"]
+status = "forbidden"
+song_pack = "Eternal Core"
+duration = "2:17"
+note = "对立的角色曲"
+section = "主线 第一幕"
+
+[[track]]
+name = "PRAGMATISM"
+artist = "Laur"
+artist_ids = ["laur"]
+status = "forbidden"
+song_pack = "Eternal Core"
+duration = "2:00"
+note = "光的角色曲"
+section = "主线 第一幕"
+
+[[track]]
+name = "PRAGMATISM -RESURRECTION-"
+artist = "Laur"
+artist_ids = ["laur"]
+status = "forbidden"
+song_pack = "Eternal Core"
+duration = "2:38"
+section = "主线 第一幕"

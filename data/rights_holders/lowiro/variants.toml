@@ -1,0 +1,895 @@
+# Variant tracks (extended versions, remixes, album versions, etc.)
+
+[[track]]
+name = "Cybernecia Catharsis (Extend Mix)"
+artist = "Tanchiky"
+artist_ids = ["tanchiky"]
+status = "forbidden"
+duration = "4:33"
+variant_of = "Cybernecia Catharsis"
+preview = "网易云地址"
+
+[[track]]
+name = "Purgatorium（FULL Ver.）"
+artist = "お月さま交響曲"
+artist_ids = ["お月さま交響曲"]
+status = "forbidden"
+duration = "3:35"
+variant_of = "Purgatorium"
+preview = "网易云地址"
+
+[[track]]
+name = "Blaster (Extended Ver.)"
+artist = "Massive New Krew"
+artist_ids = ["massive_new_krew"]
+status = "forbidden"
+duration = "3:43"
+variant_of = "Blaster"
+preview = "网易云地址"
+
+[[track]]
+name = "Monochrome Princess -the 21st Rebirth-"
+artist = "polysha"
+artist_ids = ["polysha"]
+status = "forbidden"
+duration = "2:55"
+variant_of = "Monochrome Princess"
+preview = "网易云地址"
+
+[[track]]
+name = "Ignotus (Extended Version)"
+artist = "ak+q"
+artist_ids = ["ak_q"]
+status = "forbidden"
+duration = "4:40"
+variant_of = "Ignotus"
+note = "Arcaea官方原声专辑二 Memories of Conflict"
+preview = "b站地址"
+
+[[track]]
+name = "san skia (Full ver.)"
+artist = "ユアミトス"
+artist_ids = ["ユアミトス"]
+status = "forbidden"
+duration = "3:49"
+variant_of = "san skia"
+note = "游戏内未收录的完整版"
+preview = "网易云地址"
+
+[[track]]
+name = "Glow (Extended Mix)"
+artist = "SPACELECTRO"
+artist_ids = ["spacelectro"]
+status = "forbidden"
+duration = "4:00"
+variant_of = "Glow"
+preview = "网易云地址"
+
+[[track]]
+name = "狂言綺語 (extended ver.)"
+artist = "影虎。& ikaruga_nex"
+artist_ids = ["影虎_ikaruga_nex"]
+status = "forbidden"
+duration = "5:23"
+preview = "网易云地址"
+
+[[track]]
+name = "虚空の夢 (OP ver.)"
+artist = "ak+q"
+artist_ids = ["ak_q"]
+status = "forbidden"
+duration = "2:51"
+variant_of = "虚空の夢"
+note = "Arcaea官方原声专辑二 Memories of Conflict"
+preview = "b站地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Sheriruth (from.Arcaea)"
+artist = "Team Grimoire"
+artist_ids = ["team_grimoire"]
+status = "forbidden"
+duration = "2:51"
+variant_of = "Sheriruth"
+note = "《Grimoire of Darkness》专辑版"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "PRAGMATISM (2021 ReMaster)"
+artist = "Laur"
+artist_ids = ["laur"]
+status = "forbidden"
+duration = "2:01"
+variant_of = "PRAGMATISM"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Iconoclast （Full ver.)"
+artist = "Yamajet"
+artist_ids = ["yamajet"]
+status = "forbidden"
+duration = "4:11"
+variant_of = "Iconoclast"
+note = "收录于专辑《きまぐれウィッチスミス》的完整版"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "妖艶魔女 -trappola bewitching- (Extended Version)"
+artist = "gmtn."
+artist_ids = ["gmtn"]
+status = "forbidden"
+duration = "4:19"
+variant_of = "妖艶魔女 -trappola bewitching-"
+note = "Arcaea官方原声专辑二 Memories of Conflict"
+preview = "b站地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Grievous Lady (Full ver.)"
+artist = "Laur、Team Grimoire"
+artist_ids = ["laur", "team_grimoire"]
+status = "forbidden"
+duration = "3:58"
+variant_of = "Grievous Lady"
+note = "《UMBRA MORTIS》专辑版"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Grievous Lady -nothing is but what is not-"
+artist = "Laur、Team Grimoire"
+artist_ids = ["laur", "team_grimoire"]
+status = "forbidden"
+duration = "6:00"
+variant_of = "Grievous Lady"
+note = "Arcaea官方原声专辑二 Memories of Conflict"
+preview = "b站地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Sulfur(Dioxide Form)"
+artist = "ぺのれり"
+artist_ids = ["ぺのれり"]
+status = "forbidden"
+duration = "3:49"
+variant_of = "Sulfur"
+note = "Arcaea官方原声专辑一 Memories of Light"
+preview = "b站地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Ether Strike ('Divine Mercy' Extended)"
+artist = "Akira Complex"
+artist_ids = ["akira_complex"]
+status = "forbidden"
+duration = "4:36"
+variant_of = "Ether Strike"
+note = "Arcaea官方原声专辑一 Memories of Light"
+preview = "b站地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Fracture Ray (pt. StaZyo)"
+artist = "Sakuzyo & Sta"
+artist_ids = ["sakuzyo", "sta"]
+status = "forbidden"
+duration = "2:39"
+variant_of = "Fracture Ray"
+note = "Tone Sphere中的收录版本"
+preview = "b站地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Fracture Ray (しおじょワールド編)"
+artist = "Sakuzyo & Sta"
+artist_ids = ["sakuzyo", "sta"]
+status = "forbidden"
+duration = "3:44"
+variant_of = "Fracture Ray"
+note = "World专辑版本"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Vindication (Extended)"
+artist = "Laur"
+artist_ids = ["laur"]
+status = "forbidden"
+duration = "4:03"
+variant_of = "Vindication"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "BLRINK (Full ver.)"
+artist = "Sta"
+artist_ids = ["sta"]
+status = "forbidden"
+duration = "2:56"
+variant_of = "BLRINK"
+note = "游戏内未收录的完整版"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "BLRINK (Instrumental)"
+artist = "Sta"
+artist_ids = ["sta"]
+status = "forbidden"
+duration = "2:55"
+variant_of = "BLRINK"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Lost Desire (Instrumental)"
+artist = "無力P"
+artist_ids = ["無力p"]
+status = "forbidden"
+duration = "2:37"
+variant_of = "Lost Desire"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Dantalion (Extended ver.)"
+artist = "Team Grimoire"
+artist_ids = ["team_grimoire"]
+status = "forbidden"
+duration = "4:08"
+variant_of = "Dantalion"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "#1f1e33 (Another long ＂＂#ant1p01e＂＂ version)"
+artist = "かめりあ(EDP)"
+artist_ids = ["かめりあ_edp"]
+status = "forbidden"
+duration = "6:22"
+variant_of = "#1f1e33"
+note = "Arcaea官方原声专辑五 Memories of Wrath"
+preview = "qq音乐地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "#1f1e33 (#00102g version)"
+artist = "かめりあ(EDP)"
+artist_ids = ["かめりあ_edp"]
+status = "forbidden"
+duration = "5:51"
+variant_of = "#1f1e33"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Tempestissimo (Uncut Edition)"
+artist = "t+pazolite"
+artist_ids = ["t_pazolite"]
+status = "forbidden"
+duration = "4:15"
+variant_of = "Tempestissimo"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Tempestissimo (In un dolore da record)"
+artist = "t+pazolite"
+artist_ids = ["t_pazolite"]
+status = "forbidden"
+duration = "5:11"
+variant_of = "Tempestissimo"
+note = "Arcaea官方原声专辑五 Memories of Wrath"
+preview = "qq音乐地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "World Ender (Full ver.)"
+artist = "sasakure.UK × TJ.hangneil"
+artist_ids = ["sasakure_uk", "tj_hangneil"]
+status = "forbidden"
+duration = "3:13"
+variant_of = "World Ender"
+note = "游戏内未收录的完整版"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Arcana Eden (Extended by Laur)"
+artist = "Team Grimoire vs Sakuzyo vs Laur"
+artist_ids = ["team_grimoire", "sakuzyo", "laur"]
+status = "forbidden"
+duration = "4:09"
+variant_of = "Arcana Eden"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Testify -Official Music Video-"
+artist = "void (Mournfinale) feat. 星熊南巫"
+artist_ids = ["void_mournfinale", "星熊南巫"]
+status = "forbidden"
+duration = "3:30"
+variant_of = "Testify"
+note = "游戏内未收录的完整版"
+preview = "网易云地址"
+section = "主线 第一幕"
+
+[[track]]
+name = "Paradise (Extended Mix)"
+artist = "Sound Souler"
+artist_ids = ["sound_souler"]
+status = "forbidden"
+duration = "4:30"
+variant_of = "Paradise"
+note = "加长版，收录于专辑《Lavenue》"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Paradise (Heaven Up Remix)"
+artist = "Sound Souler"
+artist_ids = ["sound_souler"]
+status = "forbidden"
+duration = "3:25"
+variant_of = "Paradise"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Flashback (Extended Mix)"
+artist = "ARForest"
+artist_ids = ["arforest"]
+status = "forbidden"
+duration = "4:36"
+variant_of = "Flashback"
+note = "加长版，收录于专辑《Frost Era》"
+preview = "b站地址"
+section = "支线"
+
+[[track]]
+name = "フライブルクとエンドロウル (Extended Version)"
+artist = "アリスシャッハと魔法の楽団"
+artist_ids = ["アリスシャッハと魔法の楽団"]
+status = "forbidden"
+duration = "3:54"
+variant_of = "フライブルクとエンドロウル"
+note = "Arcaea官方原声专辑一 Memories of Light"
+preview = "b站地址"
+section = "支线"
+
+[[track]]
+name = "Party Vinyl (uma Remix)"
+artist = "モリモリあつし"
+artist_ids = ["モリモリあつし"]
+status = "forbidden"
+duration = "4:18"
+variant_of = "Party Vinyl"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Nirv lucE (Full ver.)"
+artist = "しーけー"
+artist_ids = ["しーけー"]
+status = "forbidden"
+duration = "3:44"
+variant_of = "Nirv lucE"
+note = "游戏内未收录的原版"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "GLORY：ROAD (long ver.)"
+artist = "Uma、モリモリあつし"
+artist_ids = ["uma", "モリモリあつし"]
+status = "forbidden"
+duration = "4:43"
+variant_of = "GLORY：ROAD"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "GLORY：ROAD (Aoi vs. siqlo's ''Overload'' RMX)"
+artist = "Uma、モリモリあつし、Aoi、siplo"
+artist_ids = ["uma", "モリモリあつし", "aoi", "siplo"]
+status = "forbidden"
+duration = "3:58"
+variant_of = "GLORY：ROAD"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Moonheart (VIP) (From Arcaea)"
+artist = "翡乃イスカ"
+artist_ids = ["翡乃イスカ"]
+status = "forbidden"
+duration = "4:22"
+variant_of = "Moonheart"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Moonheart (Mameyudoufu Remix)"
+artist = "翡乃イスカ"
+artist_ids = ["翡乃イスカ"]
+status = "forbidden"
+duration = "3:01"
+variant_of = "Moonheart"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Moonheart (Riku Remix)"
+artist = "Riku"
+artist_ids = ["riku"]
+status = "forbidden"
+duration = "4:19"
+variant_of = "Moonheart"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Alismonitos Lethaeus"
+artist = "Silentroom"
+artist_ids = ["silentroom"]
+status = "forbidden"
+duration = "4:10"
+variant_of = "Lethaeus"
+note = "重制版，收录于专辑《Rainbow Frontier》"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "corps-sans-organes (Extended Version)"
+artist = "cybermiso"
+artist_ids = ["cybermiso"]
+status = "forbidden"
+duration = "5:46"
+variant_of = "corps-sans-organes"
+note = "Arcaea官方原声专辑四 Memories of Dreams"
+preview = "qq音乐地址"
+section = "支线"
+
+[[track]]
+name = "Strongholds (Extended Mix)"
+artist = "Yooh"
+artist_ids = ["yooh"]
+status = "forbidden"
+duration = "5:00"
+variant_of = "Strongholds"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "next to you (MRM REMIX)"
+artist = "uma、橘花音"
+artist_ids = ["uma", "橘花音"]
+status = "forbidden"
+duration = "5:52"
+variant_of = "next to you"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Singularity (Full ver.)"
+artist = "ETIA."
+artist_ids = ["etia"]
+status = "forbidden"
+duration = "2:23"
+variant_of = "Singularity"
+note = "游戏内未收录的完整版"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Black Territory (Extended Mix)"
+artist = "DJ Myosuke"
+artist_ids = ["dj_myosuke"]
+status = "forbidden"
+duration = "3:36"
+variant_of = "Black Territory"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Vicious Heroism -Traitor Version"
+artist = "Kobaryo"
+artist_ids = ["kobaryo"]
+status = "forbidden"
+duration = "3:06"
+variant_of = "Vicious Heroism"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Cyaegha (Extended Mix)"
+artist = "USAO"
+artist_ids = ["usao"]
+status = "forbidden"
+duration = "4:34"
+variant_of = "Cyaegha"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Cyaegha (Laur Remix)"
+artist = "USAO、Laur"
+artist_ids = ["usao", "laur"]
+status = "forbidden"
+duration = "2:59"
+variant_of = "Cyaegha"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Tie me down gently (long ver.)"
+artist = "溝口ゆうま、大瀬良あい"
+artist_ids = ["溝口ゆうま", "大瀬良あい"]
+status = "forbidden"
+duration = "3:33"
+variant_of = "Tie me down gently"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Valhalla:0 (Extended)"
+artist = "Juggernaut."
+artist_ids = ["juggernaut"]
+status = "forbidden"
+duration = "5:10"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Alice's Suitcase (Instrumental)"
+artist = "Endorfin."
+artist_ids = ["endorfin"]
+status = "forbidden"
+duration = "3:49"
+variant_of = "Alice's Suitcase"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Alice's Suitcase (Full ver.)"
+artist = "Endorfin."
+artist_ids = ["endorfin"]
+status = "forbidden"
+duration = "3:49"
+variant_of = "Alice's Suitcase"
+note = "游戏内未收录的完整版"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Beside You (Extended Version)"
+artist = "江口孝宏"
+artist_ids = ["江口孝宏"]
+status = "forbidden"
+duration = "3:53"
+variant_of = "Beside You"
+note = "Arcaea官方原声专辑四 Memories of Dreams"
+preview = "qq音乐地址"
+section = "支线"
+
+[[track]]
+name = "First Snow (Extended Mix)"
+artist = "黒魔"
+artist_ids = ["黒魔"]
+status = "forbidden"
+duration = "3:56"
+variant_of = "First Snow"
+note = "Arcaea官方原声专辑六 Memories of Myth"
+preview = "qq音乐地址"
+section = "支线"
+
+[[track]]
+name = "Blocked Library (extended)"
+artist = "影虎。"
+artist_ids = ["影虎"]
+status = "forbidden"
+duration = "6:07"
+variant_of = "Blocked Library"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Crystal Gravity (Extended)"
+artist = "Tanchiky vs. siromaru"
+artist_ids = ["tanchiky", "siromaru"]
+status = "forbidden"
+duration = "3:58"
+variant_of = "Crystal Gravity"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Crystal Gravity (siromaru Remix)"
+artist = "Tanchiky vs. siromaru"
+artist_ids = ["tanchiky", "siromaru"]
+status = "forbidden"
+duration = "3:16"
+variant_of = "Crystal Gravity"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Crystal Gravity (Tanchiky Remix)"
+artist = "Tanchiky vs. siromaru"
+artist_ids = ["tanchiky", "siromaru"]
+status = "forbidden"
+duration = "3:02"
+variant_of = "Crystal Gravity"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Löschen (Long ver.)"
+artist = "BlackY feat. Risa Yuzuki"
+artist_ids = ["blacky", "risa_yuzuki"]
+status = "forbidden"
+duration = "4:34"
+variant_of = "Löschen"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Aegleseeker (\"Afterworld\" Full Version)"
+artist = "Silentroom、Frums"
+artist_ids = ["silentroom", "frums"]
+status = "forbidden"
+duration = "7:04"
+variant_of = "Aegleseeker"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Aegleseeker, over the horizon"
+artist = "Silentroom vs Frums"
+artist_ids = ["silentroom", "frums"]
+status = "forbidden"
+duration = "5:38"
+variant_of = "Aegleseeker"
+note = "Arcaea官方原声专辑六 Memories of Myth"
+preview = "qq音乐地址"
+section = "支线"
+
+[[track]]
+name = "Overwhelm (Long Version)"
+artist = "xi"
+artist_ids = ["xi"]
+status = "forbidden"
+duration = "4:03"
+variant_of = "Overwhelm"
+preview = "网易云地址"
+section = "支线"
+
+[[track]]
+name = "Quon-Extend-"
+artist = "Feryquitous"
+artist_ids = ["feryquitous"]
+status = "forbidden"
+duration = "3:28"
+variant_of = "Quon"
+preview = "网易云地址"
+section = "联动"
+
+[[track]]
+name = "La'qryma of the Wasteland (Extended Mix)"
+artist = "DJ Noriken"
+artist_ids = ["dj_noriken"]
+status = "forbidden"
+duration = "5:02"
+variant_of = "La'qryma of the Wasteland"
+preview = "网易云地址"
+section = "联动"
+
+[[track]]
+name = "Einherjar Joker (Requiem EXTENDED MIX)"
+artist = "DJ Genki、Gram"
+artist_ids = ["dj_genki", "gram"]
+status = "forbidden"
+duration = "3:50"
+variant_of = "Einherjar Joker"
+preview = "网易云地址"
+section = "联动"
+
+[[track]]
+name = "最強STRONGER (Extended Mix)"
+artist = "REDALiCE vs USAO"
+artist_ids = ["redalice", "usao"]
+status = "forbidden"
+duration = "4:01"
+variant_of = "最強STRONGER"
+preview = "网易云地址"
+section = "联动"
+
+[[track]]
+name = "Auxesia (Extended Ver.)"
+artist = "ginkiha"
+artist_ids = ["ginkiha"]
+status = "forbidden"
+duration = "4:02"
+variant_of = "Auxesia"
+note = "Arcaea官方原声专辑三 Memories of Realms"
+preview = "b站地址"
+section = "单曲"
+
+[[track]]
+name = "Alexandrite (Extended Mix)"
+artist = "WAiKURO"
+artist_ids = ["waikuro"]
+status = "forbidden"
+duration = "6:36"
+variant_of = "Alexandrite"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Xeraphinite (Extended Ver.)"
+artist = "BlackY"
+artist_ids = ["blacky"]
+status = "forbidden"
+duration = "5:30"
+variant_of = "Xeraphinite"
+note = "Arcaea官方原声专辑三 Memories of Realms"
+preview = "b站地址"
+section = "单曲"
+
+[[track]]
+name = "彩る夏の恋花火 (Full Version)"
+artist = "karatoPαnchii、はるの"
+artist_ids = ["karatopαnchii", "はるの"]
+status = "forbidden"
+duration = "3:41"
+variant_of = "彩る夏の恋花火"
+note = "Arcaea官方原声专辑四 Memories of Dreams"
+preview = "qq音乐地址"
+section = "单曲"
+
+[[track]]
+name = "GIMME DA BLOOD (Transfusion mix)"
+artist = "C-Show"
+artist_ids = ["c-show"]
+status = "forbidden"
+duration = "3:37"
+variant_of = "GIMME DA BLOOD"
+note = "Arcaea官方原声专辑六 Memories of Myth"
+preview = "qq音乐地址"
+section = "单曲"
+
+[[track]]
+name = "Metallic Punisher (Extended Ver.)"
+artist = "siromaru"
+artist_ids = ["siromaru"]
+status = "forbidden"
+duration = "3:50"
+variant_of = "Metallic Punisher"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Malicious Mischance -Always Behind You-"
+artist = "s-don"
+artist_ids = ["s-don"]
+status = "forbidden"
+duration = "4:47"
+variant_of = "Malicious Mischance"
+note = "Arcaea官方原声专辑五 Memories of Wrath"
+preview = "qq音乐地址"
+section = "单曲"
+
+[[track]]
+name = "Scarlet Cage (Long Version)"
+artist = "Daisuke Kurosawa"
+artist_ids = ["daisuke_kurosawa"]
+status = "forbidden"
+duration = "4:20"
+variant_of = "Scarlet Cage"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "NEO WINGS -Extend Version-"
+artist = "SOUND HOLIC feat. Nana Takahashi"
+artist_ids = ["sound_holic", "nana_takahashi"]
+status = "forbidden"
+duration = "3:44"
+variant_of = "NEO WINGS"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Heavenly caress (long ver.)"
+artist = "Noah"
+artist_ids = ["noah"]
+status = "forbidden"
+duration = "4:45"
+variant_of = "Heavenly caress"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Be There (HiTECH NINJA Remix)"
+artist = "HiTECH NINJA"
+artist_ids = ["hitech_ninja"]
+status = "forbidden"
+duration = "4:14"
+variant_of = "Be There"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Xanatos-Platinum long ver-"
+artist = "Tatsh"
+artist_ids = ["tatsh"]
+status = "forbidden"
+duration = "5:09"
+variant_of = "Xanatos"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Xanatos -Nhato Remix-"
+artist = "Tatsh"
+artist_ids = ["tatsh"]
+status = "forbidden"
+duration = "5:26"
+variant_of = "Xanatos"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Libertas (Extended Mix)"
+artist = "Zekk"
+artist_ids = ["zekk"]
+status = "forbidden"
+duration = "4:20"
+variant_of = "Libertas"
+note = "Arcaea官方原声专辑三 Memories of Realms"
+preview = "b站地址"
+section = "单曲"
+
+[[track]]
+name = "Modelista (Extended)"
+artist = "HiTECH NINJA"
+artist_ids = ["hitech_ninja"]
+status = "forbidden"
+duration = "4:27"
+variant_of = "Modelista"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Fallensquare (\"Arcade\" Full Version)"
+artist = "Silentroom"
+artist_ids = ["silentroom"]
+status = "forbidden"
+duration = "5:35"
+variant_of = "Fallensquare"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "Astral tale - Denebold"
+artist = "Noah"
+artist_ids = ["noah"]
+status = "forbidden"
+duration = "5:36"
+variant_of = "Astral tale"
+preview = "网易云地址"
+section = "单曲"
+
+[[track]]
+name = "BADTEK (Extended)"
+artist = "EBIMAYO"
+artist_ids = ["ebimayo"]
+status = "forbidden"
+duration = "3:36"
+variant_of = "BADTEK"
+preview = "网易云地址"
+section = "单曲"

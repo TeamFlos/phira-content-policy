@@ -1,0 +1,46 @@
+# Luminous Sky
+
+[[track]]
+name = "九番目の迷路"
+artist = "アリスシャッハと魔法の楽団"
+artist_ids = ["アリスシャッハと魔法の楽団"]
+status = "forbidden"
+song_pack = "Luminous Sky"
+section = "主线 第一幕"
+
+[[track]]
+name = "Sulfur"
+artist = "ぺのれり"
+artist_ids = ["ぺのれり"]
+status = "forbidden"
+song_pack = "Luminous Sky"
+duration = "2:22"
+section = "主线 第一幕"
+
+[[track]]
+name = "The Message"
+artist = "Jun Kuroda"
+artist_ids = ["jun_kuroda"]
+status = "forbidden"
+song_pack = "Luminous Sky"
+section = "主线 第一幕"
+
+[[track]]
+name = "Ether Strike"
+artist = "Akira Complex"
+artist_ids = ["akira_complex"]
+status = "forbidden"
+song_pack = "Luminous Sky"
+duration = "2:22"
+note = "光（Zero）的角色曲"
+section = "主线 第一幕"
+
+[[track]]
+name = "Fracture Ray"
+artist = "削除"
+artist_ids = ["削除"]
+status = "forbidden"
+song_pack = "Luminous Sky"
+duration = "2:35"
+note = "光（Fracture）的角色曲"
+section = "主线 第一幕"

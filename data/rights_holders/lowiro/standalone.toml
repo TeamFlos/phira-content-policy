@@ -1,0 +1,18 @@
+# Standalone tracks (no song pack)
+
+[[track]]
+name = "0xe0e1ccull"
+artist = "f→n"
+artist_ids = ["f_n"]
+status = "forbidden"
+duration = "2:45"
+note = "2023年愚人节曲"
+section = "主线 第一幕"
+
+[[track]]
+name = "To the Furthest Dream"
+artist = "ii/night feat. 綺良雪"
+artist_ids = ["ii_night", "綺良雪"]
+status = "forbidden"
+note = "2023东京电玩展先行曲"
+section = "单曲"

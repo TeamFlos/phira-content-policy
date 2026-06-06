@@ -1,0 +1,28 @@
+# Light of Salvation
+
+[[track]]
+name = "Small Cloud Sugar Candy"
+artist = "テヅカ x Aoi feat.桃雛なの"
+artist_ids = ["テヅカ", "aoi_feat_桃雛なの"]
+status = "forbidden"
+song_pack = "Light of Salvation"
+note = "2020公募优胜曲"
+section = "支线"
+
+[[track]]
+name = "AlterAle"
+artist = "Arik Kau Delay (アラ&かゆき&でり）"
+artist_ids = ["arik_kau_delay_アラ_かゆき_でり"]
+status = "forbidden"
+song_pack = "Light of Salvation"
+note = "2020公募优胜曲"
+section = "支线"
+
+[[track]]
+name = "光速神授説 - Divine Light of Myriad -"
+artist = "yoho"
+artist_ids = ["yoho"]
+status = "forbidden"
+song_pack = "Light of Salvation"
+note = "2020公募优胜曲"
+section = "支线"

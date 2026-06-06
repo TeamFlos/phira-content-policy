@@ -1,0 +1,26 @@
+# The Journey Onwards
+
+[[track]]
+name = "Heart Jackin'"
+artist = "Yu_Asahina"
+artist_ids = ["yu_asahina"]
+status = "forbidden"
+song_pack = "The Journey Onwards"
+section = "支线"
+
+[[track]]
+name = "Beside You"
+artist = "江口孝宏"
+artist_ids = ["江口孝宏"]
+status = "forbidden"
+song_pack = "The Journey Onwards"
+duration = "1:50"
+section = "支线"
+
+[[track]]
+name = "To：Alice Liddell"
+artist = "モリモリあつし"
+artist_ids = ["モリモリあつし"]
+status = "forbidden"
+song_pack = "The Journey Onwards"
+section = "支线"

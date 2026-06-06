@@ -1,0 +1,29 @@
+# Pale Tapestry
+
+[[track]]
+name = "Coastal Highway"
+artist = "Glitch Droids"
+artist_ids = ["glitch_droids"]
+status = "forbidden"
+song_pack = "Pale Tapestry"
+note = "2020公募优胜曲"
+section = "支线"
+
+[[track]]
+name = "ΟΔΥΣΣΕΙΑ"
+artist = "Sober Bear"
+artist_ids = ["sober_bear"]
+status = "forbidden"
+song_pack = "Pale Tapestry"
+note = "2020公募优胜曲"
+section = "支线"
+
+[[track]]
+name = "Overwhelm"
+artist = "xi"
+artist_ids = ["xi"]
+status = "forbidden"
+song_pack = "Pale Tapestry"
+duration = "2:29"
+note = "2020公募优胜曲"
+section = "支线"

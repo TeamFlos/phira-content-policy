@@ -1,0 +1,57 @@
+# Crimson Solace
+
+[[track]]
+name = "Paradise"
+artist = "Sound Souler"
+artist_ids = ["sound_souler"]
+status = "forbidden"
+song_pack = "Crimson Solace"
+duration = "2:29"
+section = "支线"
+
+[[track]]
+name = "Flashback"
+artist = "ARForest"
+artist_ids = ["arforest"]
+status = "forbidden"
+song_pack = "Crimson Solace"
+duration = "2:07"
+section = "支线"
+
+[[track]]
+name = "フライブルクとエンドロウル"
+artist = "アリスシャッハと魔法の楽団"
+artist_ids = ["アリスシャッハと魔法の楽団"]
+status = "forbidden"
+song_pack = "Crimson Solace"
+duration = "2:33"
+section = "支线"
+
+[[track]]
+name = "Party Vinyl"
+artist = "モリモリあつし"
+artist_ids = ["モリモリあつし"]
+status = "forbidden"
+song_pack = "Crimson Solace"
+duration = "1:50"
+section = "支线"
+
+[[track]]
+name = "Nirv lucE"
+artist = "しーけー"
+artist_ids = ["しーけー"]
+status = "forbidden"
+song_pack = "Crimson Solace"
+duration = "2:08"
+note = "红的角色曲"
+section = "支线"
+
+[[track]]
+name = "GLORY：ROAD"
+artist = "Uma、モリモリあつし"
+artist_ids = ["uma", "モリモリあつし"]
+status = "forbidden"
+song_pack = "Crimson Solace"
+duration = "2:24"
+note = "2019公募优胜曲"
+section = "支线"
