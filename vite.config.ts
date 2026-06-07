@@ -1,7 +1,10 @@
+import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
+import { contentPolicyPlugin } from "./scripts/content-policy-plugin.js";
 
-// https://vite.dev/config/
+const dataDir = resolve(import.meta.dirname, "data");
+
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [contentPolicyPlugin(dataDir), vue()],
 });

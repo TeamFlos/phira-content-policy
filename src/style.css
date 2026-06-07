@@ -1,79 +1,161 @@
+/* ---------- design tokens ---------- */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* Greyscale: cool slate, mostly for surfaces and text */
+  --color-bg: #fcfcfd;
+  --color-surface: #ffffff;
+  --color-surface-elevated: #ffffff;
+  --color-border: #e5e7eb;
+  --color-border-strong: #cbd5e1;
+  --color-text: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-tertiary: #94a3b8;
+  --color-accent: #0f172a;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Status — solid label color */
+  --color-forbidden: #b91c1c;
+  --color-forbidden-bg: #fee2e2;
+  --color-forbidden-border: #fecaca;
+  --color-restricted: #b45309;
+  --color-restricted-bg: #fef3c7;
+  --color-restricted-border: #fde68a;
+  --color-free: #15803d;
+  --color-free-bg: #dcfce7;
+  --color-free-border: #bbf7d0;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Typography */
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei UI", "Hiragino Sans GB",
+    "Source Han Sans CN", "Noto Sans CJK SC", system-ui, sans-serif;
+  --font-mono:
+    "JetBrains Mono", "Fira Code", ui-monospace, "SF Mono", Monaco, Menlo, Consolas, monospace;
+
+  /* Spacing scale (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+
+  /* Layout */
+  --container-max: 880px;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0b1120;
+    --color-surface: #111827;
+    --color-surface-elevated: #1e293b;
+    --color-border: #1f2937;
+    --color-border-strong: #334155;
+    --color-text: #f1f5f9;
+    --color-text-secondary: #cbd5e1;
+    --color-text-tertiary: #64748b;
+    --color-accent: #f1f5f9;
+
+    --color-forbidden: #fca5a5;
+    --color-forbidden-bg: rgba(239, 68, 68, 0.12);
+    --color-forbidden-border: rgba(239, 68, 68, 0.25);
+    --color-restricted: #fcd34d;
+    --color-restricted-bg: rgba(245, 158, 11, 0.12);
+    --color-restricted-border: rgba(245, 158, 11, 0.28);
+    --color-free: #86efac;
+    --color-free-bg: rgba(34, 197, 94, 0.12);
+    --color-free-border: rgba(34, 197, 94, 0.28);
+  }
 }
 
+/* ---------- minimal reset ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+html {
+  scrollbar-gutter: stable;
 }
-
+body {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-border-strong);
+  text-underline-offset: 2px;
+}
+a:hover {
+  text-decoration-color: var(--color-text);
+}
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+input,
+textarea {
+  font: inherit;
+  color: inherit;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.card {
-  padding: 2em;
+:focus-visible {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
 }
 
-#app {
-  max-width: 1280px;
+/* ---------- utility primitives used across components ---------- */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0 var(--space-5);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.mono {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+}
+
+/* Card chrome shared by Track / RightsHolder / Artist cards.
+   Each card SFC tweaks padding/gap in its own scoped style. */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
 }
