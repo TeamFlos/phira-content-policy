@@ -5,11 +5,14 @@ on:
   pull_request:
 
 jobs:
-  checks:
+  web-checks:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Enter subdirectory
+        run: cd web
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
