@@ -6,5 +6,6 @@ import { contentPolicyPlugin } from "./scripts/content-policy-plugin.js";
 const dataDir = resolve(import.meta.dirname, "..", "data");
 
 export default defineConfig({
+  base: process.env.BASE_URL ?? "/",
   plugins: [contentPolicyPlugin(dataDir), vue()],
 });
