@@ -2,12 +2,14 @@ use std::collections::HashMap;
 
 use serde::{Deserialize, Serialize};
 
-/** 策略状态。优先级: forbidden > restricted > free */
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 pub enum Status {
+    /// 无限制
     Free,
+    /// 需要额外许可或满足特定条件
     Restricted,
+    /// 禁止使用
     Forbidden,
 }
 
