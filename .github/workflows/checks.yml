@@ -25,10 +25,11 @@ jobs:
         with:
           workspaces: rust
 
-      - name: Build & Test
+      - name: Build & Test & Clippy
         run: |
           cargo build --workspace
           cargo test --workspace
+          cargo clippy --workspace --all
 
       - name: Export JSON
         run: cargo run -q -p phira-content-policy-data > content-policy.json
