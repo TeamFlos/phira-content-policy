@@ -37,6 +37,7 @@ status = "forbidden"
 songPack = "Black Fate"
 duration = "2:49"
 section = "主线 第一幕"
+aliases = ["色号"]
 
 [[track]]
 name = "Tempestissimo"
@@ -46,6 +47,7 @@ songPack = "Black Fate"
 duration = "2:18"
 note = "对立（Tempest）的角色曲"
 section = "主线 第一幕"
+aliases = ["风暴"]
 
 [[track]]
 name = "Arcahv"
