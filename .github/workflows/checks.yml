@@ -5,7 +5,42 @@ on:
   pull_request:
 
 jobs:
+  rust-checks:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./rust
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust
+
+      - name: Build & Test
+        run: |
+          cargo build --workspace
+          cargo test --workspace
+
+      - name: Export JSON
+        run: cargo run -q -p phira-content-policy-data > content-policy.json
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-policy-json
+          path: rust/content-policy.json
+
   web-checks:
+    needs: rust-checks
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -25,7 +60,7 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-          cache-dependency-path: web/pnpm-lock.yaml 
+          cache-dependency-path: web/pnpm-lock.yaml
 
       - name: Install
         run: pnpm install --frozen-lockfile
@@ -38,6 +73,14 @@ jobs:
 
       - name: Validate Data
         run: pnpm run validate:data
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: content-policy-json
+
+      - name: Validate JSON
+        run: tsx scripts/validate-json.ts content-policy.json
 
       - name: Build
         run: pnpm run build
