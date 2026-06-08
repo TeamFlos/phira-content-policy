@@ -3,27 +3,27 @@
 [[track]]
 name = "AI [UE] OON"
 artist = "MYUKKE."
-artist_ids = ["myukke"]
+artistIds = ["myukke"]
 status = "forbidden"
-song_pack = "Sunset Radiance"
+songPack = "Sunset Radiance"
 note = "2019公募优胜曲"
 section = "支线"
 
 [[track]]
 name = "Chelsea"
 artist = "7mai"
-artist_ids = ["7mai"]
+artistIds = ["7mai"]
 status = "forbidden"
-song_pack = "Sunset Radiance"
+songPack = "Sunset Radiance"
 note = "2019公募优胜曲"
 section = "支线"
 
 [[track]]
 name = "Tie me down gently"
 artist = "溝口ゆうま、大瀬良あい"
-artist_ids = ["溝口ゆうま", "大瀬良あい"]
+artistIds = ["溝口ゆうま", "大瀬良あい"]
 status = "forbidden"
-song_pack = "Sunset Radiance"
+songPack = "Sunset Radiance"
 duration = "2:18"
 note = "2019公募优胜曲"
 section = "支线"
@@ -31,9 +31,9 @@ section = "支线"
 [[track]]
 name = "Valhalla：0"
 artist = "Juggernaut."
-artist_ids = ["juggernaut"]
+artistIds = ["juggernaut"]
 status = "forbidden"
-song_pack = "Sunset Radiance"
+songPack = "Sunset Radiance"
 duration = "2:22"
 note = "2019公募优胜曲"
 section = "支线"
@@ -41,8 +41,8 @@ section = "支线"
 [[track]]
 name = "迷える音色は恋の唄"
 artist = "からとPαnchii少年、はるの"
-artist_ids = ["からとpαnchii少年", "はるの"]
+artistIds = ["からとpαnchii少年", "はるの"]
 status = "forbidden"
-song_pack = "Sunset Radiance"
+songPack = "Sunset Radiance"
 note = "2019公募冠军曲，群愿的角色曲"
 section = "支线"

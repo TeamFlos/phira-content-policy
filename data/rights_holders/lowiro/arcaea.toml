@@ -3,117 +3,117 @@
 [[track]]
 name = "Vexaria"
 artist = "ak+q"
-artist_ids = ["ak_q"]
+artistIds = ["ak_q"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 
 [[track]]
 name = "Shades of Light in a Transcendent Realm"
 artist = "ak+q"
-artist_ids = ["ak_q"]
+artistIds = ["ak_q"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 
 [[track]]
 name = "inkar-usi"
 artist = "DIA"
-artist_ids = ["dia"]
+artistIds = ["dia"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 
 [[track]]
 name = "Syro"
 artist = "Mitomoro"
-artist_ids = ["mitomoro"]
+artistIds = ["mitomoro"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 
 [[track]]
 name = "Cybernecia Catharsis"
 artist = "Tanchiky"
-artist_ids = ["tanchiky"]
+artistIds = ["tanchiky"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:14"
 
 [[track]]
 name = "Purgatorium"
 artist = "お月さま交響曲"
-artist_ids = ["お月さま交響曲"]
+artistIds = ["お月さま交響曲"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:31"
 
 [[track]]
 name = "白道、多希望羊と信じありく。"
 artist = "大瀬良あい、Apo11o program"
-artist_ids = ["大瀬良あい", "apo11o_program"]
+artistIds = ["大瀬良あい", "apo11o_program"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 
 [[track]]
 name = "Blaster"
 artist = "Massive New Krew"
-artist_ids = ["massive_new_krew"]
+artistIds = ["massive_new_krew"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:17"
 note = "Arcaea一周年纪念曲"
 
 [[track]]
 name = "Oblivia"
 artist = "Saiph"
-artist_ids = ["saiph"]
+artistIds = ["saiph"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 
 [[track]]
 name = "Diode"
 artist = "Kolaa"
-artist_ids = ["kolaa"]
+artistIds = ["kolaa"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "FREEF4LL"
 artist = "YUKIYANAGI"
-artist_ids = ["yukiyanagi"]
+artistIds = ["yukiyanagi"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "Monochrome Princess"
 artist = "polysha"
-artist_ids = ["polysha"]
+artistIds = ["polysha"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:17"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "Senkyou"
 artist = "MYTK"
-artist_ids = ["mytk"]
+artistIds = ["mytk"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "Ignotus"
 artist = "ak+q"
-artist_ids = ["ak_q"]
+artistIds = ["ak_q"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:27"
 
 [[track]]
 name = "Ignotus Afterburn"
 artist = "Arcaea Sound Team"
-artist_ids = ["arcaea_sound_team"]
+artistIds = ["arcaea_sound_team"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:20"
 note = "Arcaea官方原声专辑四 Memories of Dreams，2018年愚人节曲"
 preview = "qq音乐地址"
@@ -121,17 +121,17 @@ preview = "qq音乐地址"
 [[track]]
 name = "Red and Blue"
 artist = "Silentroom"
-artist_ids = ["silentroom"]
+artistIds = ["silentroom"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:01"
 
 [[track]]
 name = "Red and Blue and Green"
 artist = "FN"
-artist_ids = ["fn"]
+artistIds = ["fn"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:31"
 note = "Arcaea官方原声专辑三 Memories of Realms，2019年愚人节曲"
 preview = "b站地址"
@@ -139,14 +139,14 @@ preview = "b站地址"
 [[track]]
 name = "san skia"
 artist = "ユアミトス"
-artist_ids = ["ユアミトス"]
+artistIds = ["ユアミトス"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"
 duration = "2:47"
 
 [[track]]
 name = "Trap Crow"
 artist = "Puru"
-artist_ids = ["puru"]
+artistIds = ["puru"]
 status = "forbidden"
-song_pack = "Arcaea"
+songPack = "Arcaea"

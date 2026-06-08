@@ -1,7 +1,7 @@
 import { resolve } from "node:path";
 import { loadContentPolicy } from "../src/data/loader.js";
 
-const dataDir = resolve(import.meta.dirname, "..", "data");
+const dataDir = resolve(import.meta.dirname, "..", "..", "data");
 const result = await loadContentPolicy(dataDir);
 
 if ("errors" in result) {

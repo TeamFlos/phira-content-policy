@@ -3,27 +3,27 @@
 [[track]]
 name = "Coastal Highway"
 artist = "Glitch Droids"
-artist_ids = ["glitch_droids"]
+artistIds = ["glitch_droids"]
 status = "forbidden"
-song_pack = "Pale Tapestry"
+songPack = "Pale Tapestry"
 note = "2020公募优胜曲"
 section = "支线"
 
 [[track]]
 name = "ΟΔΥΣΣΕΙΑ"
 artist = "Sober Bear"
-artist_ids = ["sober_bear"]
+artistIds = ["sober_bear"]
 status = "forbidden"
-song_pack = "Pale Tapestry"
+songPack = "Pale Tapestry"
 note = "2020公募优胜曲"
 section = "支线"
 
 [[track]]
 name = "Overwhelm"
 artist = "xi"
-artist_ids = ["xi"]
+artistIds = ["xi"]
 status = "forbidden"
-song_pack = "Pale Tapestry"
+songPack = "Pale Tapestry"
 duration = "2:29"
 note = "2020公募优胜曲"
 section = "支线"

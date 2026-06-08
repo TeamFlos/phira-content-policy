@@ -2,4 +2,4 @@
 name = "Gram"
 status = "forbidden"
 note = "有 1 首曲目收录于 Arcaea（lowiro 独占）"
-display_names = ["Gram"]
+displayNames = ["Gram"]

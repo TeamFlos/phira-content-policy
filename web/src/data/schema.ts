@@ -14,12 +14,12 @@ export type RightsHolderPolicy = z.infer<typeof rightsHolderPolicySchema>;
 
 /**
  * 一首具体曲目。归属于某个 Rights Holder，
- * 可通过 artist_ids 关联到 Artist 条目
+ * 可通过 artistIds 关联到 Artist 条目
  */
 export const trackEntrySchema = z.object({
   name: z.string().min(1),
   artist: z.string().min(1),
-  artist_ids: z.array(z.string()).optional(),
+  artistIds: z.array(z.string()).optional(),
   status: statusSchema,
   note: z.string().optional(),
 });

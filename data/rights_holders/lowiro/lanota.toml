@@ -3,9 +3,9 @@
 [[track]]
 name = "Quon"
 artist = "Feryquitous"
-artist_ids = ["feryquitous"]
+artistIds = ["feryquitous"]
 status = "forbidden"
-song_pack = "Lanota"
+songPack = "Lanota"
 duration = "2:23"
 note = "Arcaea x Lanota联动"
 section = "联动"

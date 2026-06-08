@@ -3,33 +3,33 @@
 [[track]]
 name = "Vindication"
 artist = "Laur"
-artist_ids = ["laur"]
+artistIds = ["laur"]
 status = "forbidden"
-song_pack = "Adverse Prelude"
+songPack = "Adverse Prelude"
 duration = "2:30"
 section = "主线 第一幕"
 
 [[track]]
 name = "Heavensdoor"
 artist = "LeaF"
-artist_ids = ["leaf"]
+artistIds = ["leaf"]
 status = "forbidden"
-song_pack = "Adverse Prelude"
+songPack = "Adverse Prelude"
 section = "主线 第一幕"
 
 [[track]]
 name = "BLRINK"
 artist = "Sta"
-artist_ids = ["sta"]
+artistIds = ["sta"]
 status = "forbidden"
-song_pack = "Adverse Prelude"
+songPack = "Adverse Prelude"
 duration = "2:42"
 section = "主线 第一幕"
 
 [[track]]
 name = "Ringed Genesis"
 artist = "Edelritter"
-artist_ids = ["edelritter"]
+artistIds = ["edelritter"]
 status = "forbidden"
-song_pack = "Adverse Prelude"
+songPack = "Adverse Prelude"
 section = "主线 第一幕"

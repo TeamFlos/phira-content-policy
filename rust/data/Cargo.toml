@@ -1,0 +1,11 @@
+[package]
+name = "phira-content-policy-data"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+phira-content-policy-types = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+toml = { workspace = true }
+anyhow = { workspace = true }

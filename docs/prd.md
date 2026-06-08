@@ -52,7 +52,7 @@ note = "Arcaea 发行商，旗下独占曲目一律禁止使用"
 [[track]]
 name = "Testify"
 artist = "t+pazolite"
-artist_ids = ["t_pazolite"]  # 可选，指向 artists/ 下的条目
+artistIds = ["t_pazolite"]  # 可选，指向 artists/ 下的条目
 status = "forbidden"
 note = "lowiro 独占曲目"
 
@@ -97,7 +97,7 @@ references = [
 [[track]]
 name = "Some Free Track"
 artist = "Indie Artist"
-artist_ids = ["indie_artist"]
+artistIds = ["indie_artist"]
 status = "free"
 ```
 
@@ -141,7 +141,7 @@ data/
 
 1. 曲目自身的 status（如果有对应条目）
 2. 所属 Rights Holder 的 status（通过目录归属隐式确定）
-3. 关联 Artist 的 status（通过 `artist_ids` 关联，如果存在）
+3. 关联 Artist 的 status（通过 `artistIds` 关联，如果存在）
 
 所有维度并列展示，同时在不显著的位置给出一个**自动计算的综合结论**（取所有命中 status 中最严格的值，`forbidden > restricted > free`）。
 

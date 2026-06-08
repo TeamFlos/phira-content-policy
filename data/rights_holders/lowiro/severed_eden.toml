@@ -3,44 +3,44 @@
 [[track]]
 name = "Primeval Texture"
 artist = "くるぶっこちゃん"
-artist_ids = ["くるぶっこちゃん"]
+artistIds = ["くるぶっこちゃん"]
 status = "forbidden"
-song_pack = "Severed Eden"
+songPack = "Severed Eden"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"
 
 [[track]]
 name = "Technicolour"
 artist = "Maozon"
-artist_ids = ["maozon"]
+artistIds = ["maozon"]
 status = "forbidden"
-song_pack = "Severed Eden"
+songPack = "Severed Eden"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"
 
 [[track]]
 name = "Logos"
 artist = "polysha feat. 高城みよ"
-artist_ids = ["polysha", "高城みよ"]
+artistIds = ["polysha", "高城みよ"]
 status = "forbidden"
-song_pack = "Severed Eden"
+songPack = "Severed Eden"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"
 
 [[track]]
 name = "Ego Eimi"
 artist = "BlackY feat. Risa Yuzuki"
-artist_ids = ["blacky", "risa_yuzuki"]
+artistIds = ["blacky", "risa_yuzuki"]
 status = "forbidden"
-song_pack = "Severed Eden"
+songPack = "Severed Eden"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"
 
 [[track]]
 name = "Arghena"
 artist = "Feryquitous vs Laur"
-artist_ids = ["feryquitous", "laur"]
+artistIds = ["feryquitous", "laur"]
 status = "forbidden"
-song_pack = "Severed Eden"
+songPack = "Severed Eden"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"

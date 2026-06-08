@@ -3,18 +3,18 @@
 [[track]]
 name = "Yosakura Fubuki"
 artist = "A.SAKA"
-artist_ids = ["a_saka"]
+artistIds = ["a_saka"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "Arcaea x Stellights联动，原标题为“夜桜吹雪”"
 section = "联动"
 
 [[track]]
 name = "Sheriruth (Laur Remix)"
 artist = "Laur"
-artist_ids = ["laur"]
+artistIds = ["laur"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:04"
 note = "Arcaea x WACCA联动"
 section = "联动"
@@ -22,9 +22,9 @@ section = "联动"
 [[track]]
 name = "La'qryma of the Wasteland"
 artist = "DJ Noriken"
-artist_ids = ["dj_noriken"]
+artistIds = ["dj_noriken"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:21"
 note = "Arcaea x HARDCORE TANO*C联动 一期"
 section = "联动"
@@ -32,9 +32,9 @@ section = "联动"
 [[track]]
 name = "Einherjar Joker"
 artist = "DJ Genki、Gram"
-artist_ids = ["dj_genki", "gram"]
+artistIds = ["dj_genki", "gram"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:17"
 note = "Arcaea x HARDCORE TANO*C联动 一期"
 section = "联动"
@@ -42,18 +42,18 @@ section = "联动"
 [[track]]
 name = "IZANA"
 artist = "t+pazolite、P＊Light"
-artist_ids = ["t_pazolite", "p_light"]
+artistIds = ["t_pazolite", "p_light"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "Arcaea x HARDCORE TANO*C联动 一期"
 section = "联动"
 
 [[track]]
 name = "最強STRONGER"
 artist = "Redalice、USAO"
-artist_ids = ["redalice", "usao"]
+artistIds = ["redalice", "usao"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:22"
 note = "Arcaea x HARDCORE TANO*C联动 一期"
 section = "联动"
@@ -61,27 +61,27 @@ section = "联动"
 [[track]]
 name = "THE ULTIMACY"
 artist = "aran、Massive New Krew"
-artist_ids = ["aran", "massive_new_krew"]
+artistIds = ["aran", "massive_new_krew"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "Arcaea x HARDCORE TANO*C联动 二期"
 section = "联动"
 
 [[track]]
 name = "烈華RESONANCE"
 artist = "Redalice、Kobaryo"
-artist_ids = ["redalice", "kobaryo"]
+artistIds = ["redalice", "kobaryo"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "Arcaea x HARDCORE TANO*C联动 二期"
 section = "联动"
 
 [[track]]
 name = "Auxesia"
 artist = "ginkiha"
-artist_ids = ["ginkiha"]
+artistIds = ["ginkiha"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:03"
 note = "光（夏）与对立（夏）的角色曲"
 section = "单曲"
@@ -89,35 +89,35 @@ section = "单曲"
 [[track]]
 name = "Capella"
 artist = "ARForest"
-artist_ids = ["arforest"]
+artistIds = ["arforest"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "红（冬日）的角色曲"
 section = "单曲"
 
 [[track]]
 name = "Empire of Winter"
 artist = "Street"
-artist_ids = ["street"]
+artistIds = ["street"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "爱托 & 露娜（冬日）的角色曲"
 section = "单曲"
 
 [[track]]
 name = "γuarδina"
 artist = "Aoi"
-artist_ids = ["aoi"]
+artistIds = ["aoi"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Alexandrite"
 artist = "WAiKURO"
-artist_ids = ["waikuro"]
+artistIds = ["waikuro"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:19"
 note = "咲弥的角色曲"
 section = "单曲"
@@ -125,18 +125,18 @@ section = "单曲"
 [[track]]
 name = "緋纏いの宵"
 artist = "Freezer(feat.妃苺)"
-artist_ids = ["freezer_feat_妃苺"]
+artistIds = ["freezer_feat_妃苺"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "群愿（盛夏）的角色曲"
 section = "单曲"
 
 [[track]]
 name = "Xeraphinite"
 artist = "BlackY"
-artist_ids = ["blacky"]
+artistIds = ["blacky"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:26"
 note = "官方原声专辑Memories of Realms的先行特典曲"
 section = "单曲"
@@ -144,9 +144,9 @@ section = "单曲"
 [[track]]
 name = "彩る夏の恋花火"
 artist = "karatoPαnchii、はるの"
-artist_ids = ["karatopαnchii", "はるの"]
+artistIds = ["karatopαnchii", "はるの"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:30"
 note = "官方原声专辑Memories of Dreams的先行特典曲"
 section = "单曲"
@@ -154,35 +154,35 @@ section = "单曲"
 [[track]]
 name = "NULL APOPHENIA"
 artist = "N²"
-artist_ids = ["n²"]
+artistIds = ["n²"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Avant Raze"
 artist = "Sampling Masters MEGA"
-artist_ids = ["sampling_masters_mega"]
+artistIds = ["sampling_masters_mega"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "兮娅的角色曲"
 section = "单曲"
 
 [[track]]
 name = "Mirzam"
 artist = "Aoi、siqlo"
-artist_ids = ["aoi", "siqlo"]
+artistIds = ["aoi", "siqlo"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "2019公募优胜曲"
 section = "单曲"
 
 [[track]]
 name = "GIMME DA BLOOD"
 artist = "C-Show"
-artist_ids = ["c-show"]
+artistIds = ["c-show"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:13"
 note = "Arcaea四周年纪念曲，迷尔的角色曲"
 section = "单曲"
@@ -190,9 +190,9 @@ section = "单曲"
 [[track]]
 name = "Metallic Punisher"
 artist = "INNOCENT NOIZE"
-artist_ids = ["innocent_noize"]
+artistIds = ["innocent_noize"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:25"
 note = "依莉丝的角色曲"
 section = "单曲"
@@ -200,26 +200,26 @@ section = "单曲"
 [[track]]
 name = "Crimson Throne"
 artist = "Dimier√Lisb"
-artist_ids = ["dimier_lisb"]
+artistIds = ["dimier_lisb"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "2022公募优胜曲，伊莉丝（觉醒）的角色曲"
 section = "单曲"
 
 [[track]]
 name = "Manic Jeer"
 artist = "ルゼ"
-artist_ids = ["ルゼ"]
+artistIds = ["ルゼ"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Malicious Mischance"
 artist = "s-don"
-artist_ids = ["s-don"]
+artistIds = ["s-don"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:20"
 note = "伊莉丝（夏日）的角色曲"
 section = "单曲"
@@ -227,9 +227,9 @@ section = "单曲"
 [[track]]
 name = "Mistempered Malignance"
 artist = "s-don vs nitro(lowiro)"
-artist_ids = ["s-don", "nitro_lowiro"]
+artistIds = ["s-don", "nitro_lowiro"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:38"
 note = "2022年愚人节曲"
 section = "单曲"
@@ -237,52 +237,52 @@ section = "单曲"
 [[track]]
 name = "carmine:scythe"
 artist = "かゆき"
-artist_ids = ["かゆき"]
+artistIds = ["かゆき"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "调的角色曲"
 section = "单曲"
 
 [[track]]
 name = "Scarlet Cage"
 artist = "Daisuke Kurosawa"
-artist_ids = ["daisuke_kurosawa"]
+artistIds = ["daisuke_kurosawa"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:38"
 section = "单曲"
 
 [[track]]
 name = "Phantasia"
 artist = "Yunosuke"
-artist_ids = ["yunosuke"]
+artistIds = ["yunosuke"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "彩梦的角色曲"
 section = "单曲"
 
 [[track]]
 name = "MAHOROBA"
 artist = "Zekk"
-artist_ids = ["zekk"]
+artistIds = ["zekk"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "init()"
 artist = "kamome sano"
-artist_ids = ["kamome_sano"]
+artistIds = ["kamome_sano"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "NEO WINGS"
 artist = "SOUND HOLIC feat. Nana Takahashi"
-artist_ids = ["sound_holic", "nana_takahashi"]
+artistIds = ["sound_holic", "nana_takahashi"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:32"
 note = "维塔的角色曲"
 section = "单曲"
@@ -290,43 +290,43 @@ section = "单曲"
 [[track]]
 name = "Kissing Lucifer"
 artist = "ETIA."
-artist_ids = ["etia"]
+artistIds = ["etia"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Free Myself"
 artist = "lapix feat. Mami"
-artist_ids = ["lapix", "mami"]
+artistIds = ["lapix", "mami"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "天音的角色曲"
 section = "单曲"
 
 [[track]]
 name = "cocoro*cosmetic"
 artist = "KOTONOHOUSE"
-artist_ids = ["kotonohouse"]
+artistIds = ["kotonohouse"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "To the Milky Way"
 artist = "黒魔"
-artist_ids = ["黒魔"]
+artistIds = ["黒魔"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "奈美（暮光）的角色曲"
 section = "单曲"
 
 [[track]]
 name = "Heavenly caress"
 artist = "Noah"
-artist_ids = ["noah"]
+artistIds = ["noah"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:15"
 note = "2019公募优胜曲"
 section = "单曲"
@@ -334,96 +334,96 @@ section = "单曲"
 [[track]]
 name = "Filament"
 artist = "Puru"
-artist_ids = ["puru"]
+artistIds = ["puru"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "2019公募优胜曲"
 section = "单曲"
 
 [[track]]
 name = "Redolent Shape"
 artist = "Sanaas"
-artist_ids = ["sanaas"]
+artistIds = ["sanaas"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Be There"
 artist = "PSYQUI"
-artist_ids = ["psyqui"]
+artistIds = ["psyqui"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:12"
 section = "单曲"
 
 [[track]]
 name = "不浄な白い鳥"
 artist = "Missionary"
-artist_ids = ["missionary"]
+artistIds = ["missionary"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Xanatos"
 artist = "Tatsh"
-artist_ids = ["tatsh"]
+artistIds = ["tatsh"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:38"
 section = "单曲"
 
 [[track]]
 name = "Libertas"
 artist = "Zekk"
-artist_ids = ["zekk"]
+artistIds = ["zekk"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:11"
 section = "单曲"
 
 [[track]]
 name = "Modelista"
 artist = "HiTECH NINJA"
-artist_ids = ["hitech_ninja"]
+artistIds = ["hitech_ninja"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:08"
 section = "单曲"
 
 [[track]]
 name = "Macrocosmic Modulation"
 artist = "JAKAZiD"
-artist_ids = ["jakazid"]
+artistIds = ["jakazid"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "Fallensquare"
 artist = "Silentroom"
-artist_ids = ["silentroom"]
+artistIds = ["silentroom"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:32"
 section = "单曲"
 
 [[track]]
 name = "dropdead"
 artist = "Frums"
-artist_ids = ["frums"]
+artistIds = ["frums"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:16"
 section = "单曲"
 
 [[track]]
 name = "overdead."
 artist = "fn (Frums & Nitro)"
-artist_ids = ["fn_frums", "nitro"]
+artistIds = ["fn_frums", "nitro"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:37"
 note = "2021年愚人节曲"
 section = "单曲"
@@ -431,50 +431,50 @@ section = "单曲"
 [[track]]
 name = "Astral tale"
 artist = "Noah"
-artist_ids = ["noah"]
+artistIds = ["noah"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "2:28"
 section = "单曲"
 
 [[track]]
 name = "amygdata"
 artist = "Nitro"
-artist_ids = ["nitro"]
+artistIds = ["nitro"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "AttraqtiA"
 artist = "かめりあ"
-artist_ids = ["かめりあ"]
+artistIds = ["かめりあ"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "BADTEK"
 artist = "EBIMAYO"
-artist_ids = ["ebimayo"]
+artistIds = ["ebimayo"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 duration = "1:57"
 section = "单曲"
 
 [[track]]
 name = "μ"
 artist = "Frums"
-artist_ids = ["frums"]
+artistIds = ["frums"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 section = "单曲"
 
 [[track]]
 name = "PRIMITIVE LIGHTS"
 artist = "TAG"
-artist_ids = ["tag"]
+artistIds = ["tag"]
 status = "forbidden"
-song_pack = "Memory Archive"
+songPack = "Memory Archive"
 note = "六周年纪念曲"
 section = "单曲"

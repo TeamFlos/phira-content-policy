@@ -3,44 +3,44 @@
 [[track]]
 name = "Silent Rush"
 artist = "Soleily"
-artist_ids = ["soleily"]
+artistIds = ["soleily"]
 status = "forbidden"
-song_pack = "Binary Enfold"
+songPack = "Binary Enfold"
 section = "支线"
 
 [[track]]
 name = "Strongholds"
 artist = "Yooh"
-artist_ids = ["yooh"]
+artistIds = ["yooh"]
 status = "forbidden"
-song_pack = "Binary Enfold"
+songPack = "Binary Enfold"
 duration = "2:17"
 section = "支线"
 
 [[track]]
 name = "next to you"
 artist = "uma、橘花音"
-artist_ids = ["uma", "橘花音"]
+artistIds = ["uma", "橘花音"]
 status = "forbidden"
-song_pack = "Binary Enfold"
+songPack = "Binary Enfold"
 duration = "2:13"
 section = "支线"
 
 [[track]]
 name = "Memory Forest"
 artist = "ETIA."
-artist_ids = ["etia"]
+artistIds = ["etia"]
 status = "forbidden"
-song_pack = "Binary Enfold"
+songPack = "Binary Enfold"
 note = "爱托的角色曲"
 section = "支线"
 
 [[track]]
 name = "Singularity"
 artist = "ETIA."
-artist_ids = ["etia"]
+artistIds = ["etia"]
 status = "forbidden"
-song_pack = "Binary Enfold"
+songPack = "Binary Enfold"
 duration = "2:06"
 note = "露娜的角色曲"
 section = "支线"
@@ -48,9 +48,9 @@ section = "支线"
 [[track]]
 name = "Singularity VVVIP"
 artist = "Arcaea Sound Team against. ETIA."
-artist_ids = ["arcaea_sound_team_against_etia"]
+artistIds = ["arcaea_sound_team_against_etia"]
 status = "forbidden"
-song_pack = "Binary Enfold"
+songPack = "Binary Enfold"
 duration = "2:17"
 note = "Arcaea官方原声专辑四 Memories of Dreams，2020年愚人节曲"
 preview = "qq音乐地址"

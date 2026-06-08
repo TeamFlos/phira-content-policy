@@ -3,68 +3,68 @@
 [[track]]
 name = "Vivid Theory"
 artist = "ak+q"
-artist_ids = ["ak_q"]
+artistIds = ["ak_q"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 
 [[track]]
 name = "Give Me a Nightmare"
 artist = "アリスシャッハと魔法の楽団"
-artist_ids = ["アリスシャッハと魔法の楽団"]
+artistIds = ["アリスシャッハと魔法の楽団"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 
 [[track]]
 name = "Purple Verse"
 artist = "Hommarju"
-artist_ids = ["hommarju"]
+artistIds = ["hommarju"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 
 [[track]]
 name = "Glow"
 artist = "SPACELECTRO"
-artist_ids = ["spacelectro"]
+artistIds = ["spacelectro"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 duration = "2:18"
 
 [[track]]
 name = "Vandalism"
 artist = "Ashrount"
-artist_ids = ["ashrount"]
+artistIds = ["ashrount"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 note = "2020公募优胜曲"
 
 [[track]]
 name = "Turbocharger"
 artist = "A/I"
-artist_ids = ["a_i"]
+artistIds = ["a_i"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 note = "2020公募优胜曲"
 
 [[track]]
 name = "False Embellishment"
 artist = "影虎。& ikaruga_nex"
-artist_ids = ["影虎_ikaruga_nex"]
+artistIds = ["影虎_ikaruga_nex"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 duration = "2:29"
 note = "2020公募优胜曲,原标题为“狂言綺語”"
 
 [[track]]
 name = "HIVEMIND"
 artist = "かたぎり"
-artist_ids = ["かたぎり"]
+artistIds = ["かたぎり"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"
 note = "2020公募优胜曲"
 
 [[track]]
 name = "blue comet"
 artist = "ああああ"
-artist_ids = ["ああああ"]
+artistIds = ["ああああ"]
 status = "forbidden"
-song_pack = "Extend Archive"
+songPack = "Extend Archive"

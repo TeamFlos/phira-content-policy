@@ -12,6 +12,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["web/src/**/*.ts", "web/src/**/*.tsx", "web/src/**/*.vue"],
-  "exclude": ["web/src/data/loader.ts"]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["src/data/loader.ts"]
 }

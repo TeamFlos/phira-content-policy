@@ -3,26 +3,26 @@
 [[track]]
 name = "Transient Space"
 artist = "sleepless, Gardens, aspect"
-artist_ids = ["sleepless", "gardens", "aspect"]
+artistIds = ["sleepless", "gardens", "aspect"]
 status = "forbidden"
-song_pack = "Shifting Veil"
+songPack = "Shifting Veil"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"
 
 [[track]]
 name = "Nameless Passion"
 artist = "天束 feat.Sennzai"
-artist_ids = ["天束_feat_sennzai"]
+artistIds = ["天束_feat_sennzai"]
 status = "forbidden"
-song_pack = "Shifting Veil"
+songPack = "Shifting Veil"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"
 
 [[track]]
 name = "TeraVolt"
 artist = "Katali"
-artist_ids = ["katali"]
+artistIds = ["katali"]
 status = "forbidden"
-song_pack = "Shifting Veil"
+songPack = "Shifting Veil"
 note = "2022公募优胜曲"
 section = "主线 第二幕 Catastrophe"

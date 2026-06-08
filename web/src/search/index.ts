@@ -112,7 +112,7 @@ export function buildIndex(policy: ContentPolicy): SearchIndex {
   };
 }
 
-/** 关联到的艺人条目：若 artist_ids 在 policy.artists 中存在则返回 artist，否则 artist 为 null */
+/** 关联到的艺人条目：若 artistIds 在 policy.artists 中存在则返回 artist，否则 artist 为 null */
 export interface LinkedArtist {
   id: string;
   artist: Artist | null;
@@ -205,7 +205,7 @@ export function search(index: SearchIndex, rawQuery: string): SearchResults {
     if (it.nameNormalized.includes(q)) matchedOn.push("name");
     if (it.artistNormalized.includes(q)) matchedOn.push("artist");
     if (matchedOn.length === 0) continue;
-    const linked = resolveLinkedArtists(it.track.artist_ids ?? [], index.policy);
+    const linked = resolveLinkedArtists(it.track.artistIds ?? [], index.policy);
     const composite = compositeStatus(it.track, it.origin, linked);
     trackHits.push({
       track: it.track,
