@@ -3,7 +3,6 @@
 [[track]]
 name = "Ascent"
 artist = "TANUKI"
-artistIds = ["tanuki"]
 status = "forbidden"
 songPack = "Shared Time"
 section = "支线"
@@ -11,7 +10,6 @@ section = "支线"
 [[track]]
 name = "Cosmica"
 artist = "Nhato"
-artistIds = ["nhato"]
 status = "forbidden"
 songPack = "Shared Time"
 section = "支线"
@@ -19,7 +17,6 @@ section = "支线"
 [[track]]
 name = "Live Fast Die Young"
 artist = "anubasu-anubasu"
-artistIds = ["anubasu-anubasu"]
 status = "forbidden"
 songPack = "Shared Time"
 section = "支线"

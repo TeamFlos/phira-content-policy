@@ -3,7 +3,6 @@
 [[track]]
 name = "Cybernecia Catharsis (Extend Mix)"
 artist = "Tanchiky"
-artistIds = ["tanchiky"]
 status = "forbidden"
 duration = "4:33"
 variant_of = "Cybernecia Catharsis"
@@ -12,7 +11,6 @@ preview = "网易云地址"
 [[track]]
 name = "Purgatorium（FULL Ver.）"
 artist = "お月さま交響曲"
-artistIds = ["お月さま交響曲"]
 status = "forbidden"
 duration = "3:35"
 variant_of = "Purgatorium"
@@ -21,7 +19,6 @@ preview = "网易云地址"
 [[track]]
 name = "Blaster (Extended Ver.)"
 artist = "Massive New Krew"
-artistIds = ["massive_new_krew"]
 status = "forbidden"
 duration = "3:43"
 variant_of = "Blaster"
@@ -30,7 +27,6 @@ preview = "网易云地址"
 [[track]]
 name = "Monochrome Princess -the 21st Rebirth-"
 artist = "polysha"
-artistIds = ["polysha"]
 status = "forbidden"
 duration = "2:55"
 variant_of = "Monochrome Princess"
@@ -39,7 +35,6 @@ preview = "网易云地址"
 [[track]]
 name = "Ignotus (Extended Version)"
 artist = "ak+q"
-artistIds = ["ak_q"]
 status = "forbidden"
 duration = "4:40"
 variant_of = "Ignotus"
@@ -49,7 +44,6 @@ preview = "b站地址"
 [[track]]
 name = "san skia (Full ver.)"
 artist = "ユアミトス"
-artistIds = ["ユアミトス"]
 status = "forbidden"
 duration = "3:49"
 variant_of = "san skia"
@@ -59,7 +53,6 @@ preview = "网易云地址"
 [[track]]
 name = "Glow (Extended Mix)"
 artist = "SPACELECTRO"
-artistIds = ["spacelectro"]
 status = "forbidden"
 duration = "4:00"
 variant_of = "Glow"
@@ -68,7 +61,6 @@ preview = "网易云地址"
 [[track]]
 name = "狂言綺語 (extended ver.)"
 artist = "影虎。& ikaruga_nex"
-artistIds = ["影虎_ikaruga_nex"]
 status = "forbidden"
 duration = "5:23"
 preview = "网易云地址"
@@ -76,7 +68,6 @@ preview = "网易云地址"
 [[track]]
 name = "虚空の夢 (OP ver.)"
 artist = "ak+q"
-artistIds = ["ak_q"]
 status = "forbidden"
 duration = "2:51"
 variant_of = "虚空の夢"
@@ -87,7 +78,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Sheriruth (from.Arcaea)"
 artist = "Team Grimoire"
-artistIds = ["team_grimoire"]
 status = "forbidden"
 duration = "2:51"
 variant_of = "Sheriruth"
@@ -98,7 +88,6 @@ section = "主线 第一幕"
 [[track]]
 name = "PRAGMATISM (2021 ReMaster)"
 artist = "Laur"
-artistIds = ["laur"]
 status = "forbidden"
 duration = "2:01"
 variant_of = "PRAGMATISM"
@@ -108,7 +97,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Iconoclast （Full ver.)"
 artist = "Yamajet"
-artistIds = ["yamajet"]
 status = "forbidden"
 duration = "4:11"
 variant_of = "Iconoclast"
@@ -119,7 +107,6 @@ section = "主线 第一幕"
 [[track]]
 name = "妖艶魔女 -trappola bewitching- (Extended Version)"
 artist = "gmtn."
-artistIds = ["gmtn"]
 status = "forbidden"
 duration = "4:19"
 variant_of = "妖艶魔女 -trappola bewitching-"
@@ -130,7 +117,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Grievous Lady (Full ver.)"
 artist = "Laur、Team Grimoire"
-artistIds = ["laur", "team_grimoire"]
 status = "forbidden"
 duration = "3:58"
 variant_of = "Grievous Lady"
@@ -141,7 +127,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Grievous Lady -nothing is but what is not-"
 artist = "Laur、Team Grimoire"
-artistIds = ["laur", "team_grimoire"]
 status = "forbidden"
 duration = "6:00"
 variant_of = "Grievous Lady"
@@ -152,7 +137,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Sulfur(Dioxide Form)"
 artist = "ぺのれり"
-artistIds = ["ぺのれり"]
 status = "forbidden"
 duration = "3:49"
 variant_of = "Sulfur"
@@ -163,7 +147,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Ether Strike ('Divine Mercy' Extended)"
 artist = "Akira Complex"
-artistIds = ["akira_complex"]
 status = "forbidden"
 duration = "4:36"
 variant_of = "Ether Strike"
@@ -174,7 +157,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Fracture Ray (pt. StaZyo)"
 artist = "Sakuzyo & Sta"
-artistIds = ["sakuzyo", "sta"]
 status = "forbidden"
 duration = "2:39"
 variant_of = "Fracture Ray"
@@ -185,7 +167,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Fracture Ray (しおじょワールド編)"
 artist = "Sakuzyo & Sta"
-artistIds = ["sakuzyo", "sta"]
 status = "forbidden"
 duration = "3:44"
 variant_of = "Fracture Ray"
@@ -196,7 +177,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Vindication (Extended)"
 artist = "Laur"
-artistIds = ["laur"]
 status = "forbidden"
 duration = "4:03"
 variant_of = "Vindication"
@@ -206,7 +186,6 @@ section = "主线 第一幕"
 [[track]]
 name = "BLRINK (Full ver.)"
 artist = "Sta"
-artistIds = ["sta"]
 status = "forbidden"
 duration = "2:56"
 variant_of = "BLRINK"
@@ -217,7 +196,6 @@ section = "主线 第一幕"
 [[track]]
 name = "BLRINK (Instrumental)"
 artist = "Sta"
-artistIds = ["sta"]
 status = "forbidden"
 duration = "2:55"
 variant_of = "BLRINK"
@@ -227,7 +205,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Lost Desire (Instrumental)"
 artist = "無力P"
-artistIds = ["無力p"]
 status = "forbidden"
 duration = "2:37"
 variant_of = "Lost Desire"
@@ -237,7 +214,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Dantalion (Extended ver.)"
 artist = "Team Grimoire"
-artistIds = ["team_grimoire"]
 status = "forbidden"
 duration = "4:08"
 variant_of = "Dantalion"
@@ -247,7 +223,6 @@ section = "主线 第一幕"
 [[track]]
 name = "#1f1e33 (Another long ＂＂#ant1p01e＂＂ version)"
 artist = "かめりあ(EDP)"
-artistIds = ["かめりあ_edp"]
 status = "forbidden"
 duration = "6:22"
 variant_of = "#1f1e33"
@@ -258,7 +233,6 @@ section = "主线 第一幕"
 [[track]]
 name = "#1f1e33 (#00102g version)"
 artist = "かめりあ(EDP)"
-artistIds = ["かめりあ_edp"]
 status = "forbidden"
 duration = "5:51"
 variant_of = "#1f1e33"
@@ -268,7 +242,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Tempestissimo (Uncut Edition)"
 artist = "t+pazolite"
-artistIds = ["t_pazolite"]
 status = "forbidden"
 duration = "4:15"
 variant_of = "Tempestissimo"
@@ -278,7 +251,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Tempestissimo (In un dolore da record)"
 artist = "t+pazolite"
-artistIds = ["t_pazolite"]
 status = "forbidden"
 duration = "5:11"
 variant_of = "Tempestissimo"
@@ -289,7 +261,6 @@ section = "主线 第一幕"
 [[track]]
 name = "World Ender (Full ver.)"
 artist = "sasakure.UK × TJ.hangneil"
-artistIds = ["sasakure_uk", "tj_hangneil"]
 status = "forbidden"
 duration = "3:13"
 variant_of = "World Ender"
@@ -300,7 +271,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Arcana Eden (Extended by Laur)"
 artist = "Team Grimoire vs Sakuzyo vs Laur"
-artistIds = ["team_grimoire", "sakuzyo", "laur"]
 status = "forbidden"
 duration = "4:09"
 variant_of = "Arcana Eden"
@@ -310,7 +280,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Testify -Official Music Video-"
 artist = "void (Mournfinale) feat. 星熊南巫"
-artistIds = ["void_mournfinale", "星熊南巫"]
 status = "forbidden"
 duration = "3:30"
 variant_of = "Testify"
@@ -321,7 +290,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Paradise (Extended Mix)"
 artist = "Sound Souler"
-artistIds = ["sound_souler"]
 status = "forbidden"
 duration = "4:30"
 variant_of = "Paradise"
@@ -332,7 +300,6 @@ section = "支线"
 [[track]]
 name = "Paradise (Heaven Up Remix)"
 artist = "Sound Souler"
-artistIds = ["sound_souler"]
 status = "forbidden"
 duration = "3:25"
 variant_of = "Paradise"
@@ -342,7 +309,6 @@ section = "支线"
 [[track]]
 name = "Flashback (Extended Mix)"
 artist = "ARForest"
-artistIds = ["arforest"]
 status = "forbidden"
 duration = "4:36"
 variant_of = "Flashback"
@@ -353,7 +319,6 @@ section = "支线"
 [[track]]
 name = "フライブルクとエンドロウル (Extended Version)"
 artist = "アリスシャッハと魔法の楽団"
-artistIds = ["アリスシャッハと魔法の楽団"]
 status = "forbidden"
 duration = "3:54"
 variant_of = "フライブルクとエンドロウル"
@@ -364,7 +329,6 @@ section = "支线"
 [[track]]
 name = "Party Vinyl (uma Remix)"
 artist = "モリモリあつし"
-artistIds = ["モリモリあつし"]
 status = "forbidden"
 duration = "4:18"
 variant_of = "Party Vinyl"
@@ -374,7 +338,6 @@ section = "支线"
 [[track]]
 name = "Nirv lucE (Full ver.)"
 artist = "しーけー"
-artistIds = ["しーけー"]
 status = "forbidden"
 duration = "3:44"
 variant_of = "Nirv lucE"
@@ -385,7 +348,6 @@ section = "支线"
 [[track]]
 name = "GLORY：ROAD (long ver.)"
 artist = "Uma、モリモリあつし"
-artistIds = ["uma", "モリモリあつし"]
 status = "forbidden"
 duration = "4:43"
 variant_of = "GLORY：ROAD"
@@ -395,7 +357,6 @@ section = "支线"
 [[track]]
 name = "GLORY：ROAD (Aoi vs. siqlo's ''Overload'' RMX)"
 artist = "Uma、モリモリあつし、Aoi、siplo"
-artistIds = ["uma", "モリモリあつし", "aoi", "siplo"]
 status = "forbidden"
 duration = "3:58"
 variant_of = "GLORY：ROAD"
@@ -405,7 +366,6 @@ section = "支线"
 [[track]]
 name = "Moonheart (VIP) (From Arcaea)"
 artist = "翡乃イスカ"
-artistIds = ["翡乃イスカ"]
 status = "forbidden"
 duration = "4:22"
 variant_of = "Moonheart"
@@ -415,7 +375,6 @@ section = "支线"
 [[track]]
 name = "Moonheart (Mameyudoufu Remix)"
 artist = "翡乃イスカ"
-artistIds = ["翡乃イスカ"]
 status = "forbidden"
 duration = "3:01"
 variant_of = "Moonheart"
@@ -425,7 +384,6 @@ section = "支线"
 [[track]]
 name = "Moonheart (Riku Remix)"
 artist = "Riku"
-artistIds = ["riku"]
 status = "forbidden"
 duration = "4:19"
 variant_of = "Moonheart"
@@ -435,7 +393,6 @@ section = "支线"
 [[track]]
 name = "Alismonitos Lethaeus"
 artist = "Silentroom"
-artistIds = ["silentroom"]
 status = "forbidden"
 duration = "4:10"
 variant_of = "Lethaeus"
@@ -446,7 +403,6 @@ section = "支线"
 [[track]]
 name = "corps-sans-organes (Extended Version)"
 artist = "cybermiso"
-artistIds = ["cybermiso"]
 status = "forbidden"
 duration = "5:46"
 variant_of = "corps-sans-organes"
@@ -457,7 +413,6 @@ section = "支线"
 [[track]]
 name = "Strongholds (Extended Mix)"
 artist = "Yooh"
-artistIds = ["yooh"]
 status = "forbidden"
 duration = "5:00"
 variant_of = "Strongholds"
@@ -467,7 +422,6 @@ section = "支线"
 [[track]]
 name = "next to you (MRM REMIX)"
 artist = "uma、橘花音"
-artistIds = ["uma", "橘花音"]
 status = "forbidden"
 duration = "5:52"
 variant_of = "next to you"
@@ -477,7 +431,6 @@ section = "支线"
 [[track]]
 name = "Singularity (Full ver.)"
 artist = "ETIA."
-artistIds = ["etia"]
 status = "forbidden"
 duration = "2:23"
 variant_of = "Singularity"
@@ -488,7 +441,6 @@ section = "支线"
 [[track]]
 name = "Black Territory (Extended Mix)"
 artist = "DJ Myosuke"
-artistIds = ["dj_myosuke"]
 status = "forbidden"
 duration = "3:36"
 variant_of = "Black Territory"
@@ -498,7 +450,6 @@ section = "支线"
 [[track]]
 name = "Vicious Heroism -Traitor Version"
 artist = "Kobaryo"
-artistIds = ["kobaryo"]
 status = "forbidden"
 duration = "3:06"
 variant_of = "Vicious Heroism"
@@ -508,7 +459,6 @@ section = "支线"
 [[track]]
 name = "Cyaegha (Extended Mix)"
 artist = "USAO"
-artistIds = ["usao"]
 status = "forbidden"
 duration = "4:34"
 variant_of = "Cyaegha"
@@ -518,7 +468,6 @@ section = "支线"
 [[track]]
 name = "Cyaegha (Laur Remix)"
 artist = "USAO、Laur"
-artistIds = ["usao", "laur"]
 status = "forbidden"
 duration = "2:59"
 variant_of = "Cyaegha"
@@ -528,7 +477,6 @@ section = "支线"
 [[track]]
 name = "Tie me down gently (long ver.)"
 artist = "溝口ゆうま、大瀬良あい"
-artistIds = ["溝口ゆうま", "大瀬良あい"]
 status = "forbidden"
 duration = "3:33"
 variant_of = "Tie me down gently"
@@ -538,7 +486,6 @@ section = "支线"
 [[track]]
 name = "Valhalla:0 (Extended)"
 artist = "Juggernaut."
-artistIds = ["juggernaut"]
 status = "forbidden"
 duration = "5:10"
 preview = "网易云地址"
@@ -547,7 +494,6 @@ section = "支线"
 [[track]]
 name = "Alice's Suitcase (Instrumental)"
 artist = "Endorfin."
-artistIds = ["endorfin"]
 status = "forbidden"
 duration = "3:49"
 variant_of = "Alice's Suitcase"
@@ -557,7 +503,6 @@ section = "支线"
 [[track]]
 name = "Alice's Suitcase (Full ver.)"
 artist = "Endorfin."
-artistIds = ["endorfin"]
 status = "forbidden"
 duration = "3:49"
 variant_of = "Alice's Suitcase"
@@ -568,7 +513,6 @@ section = "支线"
 [[track]]
 name = "Beside You (Extended Version)"
 artist = "江口孝宏"
-artistIds = ["江口孝宏"]
 status = "forbidden"
 duration = "3:53"
 variant_of = "Beside You"
@@ -579,7 +523,6 @@ section = "支线"
 [[track]]
 name = "First Snow (Extended Mix)"
 artist = "黒魔"
-artistIds = ["黒魔"]
 status = "forbidden"
 duration = "3:56"
 variant_of = "First Snow"
@@ -590,7 +533,6 @@ section = "支线"
 [[track]]
 name = "Blocked Library (extended)"
 artist = "影虎。"
-artistIds = ["影虎"]
 status = "forbidden"
 duration = "6:07"
 variant_of = "Blocked Library"
@@ -600,7 +542,6 @@ section = "支线"
 [[track]]
 name = "Crystal Gravity (Extended)"
 artist = "Tanchiky vs. siromaru"
-artistIds = ["tanchiky", "siromaru"]
 status = "forbidden"
 duration = "3:58"
 variant_of = "Crystal Gravity"
@@ -610,7 +551,6 @@ section = "支线"
 [[track]]
 name = "Crystal Gravity (siromaru Remix)"
 artist = "Tanchiky vs. siromaru"
-artistIds = ["tanchiky", "siromaru"]
 status = "forbidden"
 duration = "3:16"
 variant_of = "Crystal Gravity"
@@ -620,7 +560,6 @@ section = "支线"
 [[track]]
 name = "Crystal Gravity (Tanchiky Remix)"
 artist = "Tanchiky vs. siromaru"
-artistIds = ["tanchiky", "siromaru"]
 status = "forbidden"
 duration = "3:02"
 variant_of = "Crystal Gravity"
@@ -630,7 +569,6 @@ section = "支线"
 [[track]]
 name = "Löschen (Long ver.)"
 artist = "BlackY feat. Risa Yuzuki"
-artistIds = ["blacky", "risa_yuzuki"]
 status = "forbidden"
 duration = "4:34"
 variant_of = "Löschen"
@@ -640,7 +578,6 @@ section = "支线"
 [[track]]
 name = "Aegleseeker (\"Afterworld\" Full Version)"
 artist = "Silentroom、Frums"
-artistIds = ["silentroom", "frums"]
 status = "forbidden"
 duration = "7:04"
 variant_of = "Aegleseeker"
@@ -650,7 +587,6 @@ section = "支线"
 [[track]]
 name = "Aegleseeker, over the horizon"
 artist = "Silentroom vs Frums"
-artistIds = ["silentroom", "frums"]
 status = "forbidden"
 duration = "5:38"
 variant_of = "Aegleseeker"
@@ -661,7 +597,6 @@ section = "支线"
 [[track]]
 name = "Overwhelm (Long Version)"
 artist = "xi"
-artistIds = ["xi"]
 status = "forbidden"
 duration = "4:03"
 variant_of = "Overwhelm"
@@ -671,7 +606,6 @@ section = "支线"
 [[track]]
 name = "Quon-Extend-"
 artist = "Feryquitous"
-artistIds = ["feryquitous"]
 status = "forbidden"
 duration = "3:28"
 variant_of = "Quon"
@@ -681,7 +615,6 @@ section = "联动"
 [[track]]
 name = "La'qryma of the Wasteland (Extended Mix)"
 artist = "DJ Noriken"
-artistIds = ["dj_noriken"]
 status = "forbidden"
 duration = "5:02"
 variant_of = "La'qryma of the Wasteland"
@@ -691,7 +624,6 @@ section = "联动"
 [[track]]
 name = "Einherjar Joker (Requiem EXTENDED MIX)"
 artist = "DJ Genki、Gram"
-artistIds = ["dj_genki", "gram"]
 status = "forbidden"
 duration = "3:50"
 variant_of = "Einherjar Joker"
@@ -701,7 +633,6 @@ section = "联动"
 [[track]]
 name = "最強STRONGER (Extended Mix)"
 artist = "REDALiCE vs USAO"
-artistIds = ["redalice", "usao"]
 status = "forbidden"
 duration = "4:01"
 variant_of = "最強STRONGER"
@@ -711,7 +642,6 @@ section = "联动"
 [[track]]
 name = "Auxesia (Extended Ver.)"
 artist = "ginkiha"
-artistIds = ["ginkiha"]
 status = "forbidden"
 duration = "4:02"
 variant_of = "Auxesia"
@@ -722,7 +652,6 @@ section = "单曲"
 [[track]]
 name = "Alexandrite (Extended Mix)"
 artist = "WAiKURO"
-artistIds = ["waikuro"]
 status = "forbidden"
 duration = "6:36"
 variant_of = "Alexandrite"
@@ -732,7 +661,6 @@ section = "单曲"
 [[track]]
 name = "Xeraphinite (Extended Ver.)"
 artist = "BlackY"
-artistIds = ["blacky"]
 status = "forbidden"
 duration = "5:30"
 variant_of = "Xeraphinite"
@@ -743,7 +671,6 @@ section = "单曲"
 [[track]]
 name = "彩る夏の恋花火 (Full Version)"
 artist = "karatoPαnchii、はるの"
-artistIds = ["karatopαnchii", "はるの"]
 status = "forbidden"
 duration = "3:41"
 variant_of = "彩る夏の恋花火"
@@ -754,7 +681,6 @@ section = "单曲"
 [[track]]
 name = "GIMME DA BLOOD (Transfusion mix)"
 artist = "C-Show"
-artistIds = ["c-show"]
 status = "forbidden"
 duration = "3:37"
 variant_of = "GIMME DA BLOOD"
@@ -765,7 +691,6 @@ section = "单曲"
 [[track]]
 name = "Metallic Punisher (Extended Ver.)"
 artist = "siromaru"
-artistIds = ["siromaru"]
 status = "forbidden"
 duration = "3:50"
 variant_of = "Metallic Punisher"
@@ -775,7 +700,6 @@ section = "单曲"
 [[track]]
 name = "Malicious Mischance -Always Behind You-"
 artist = "s-don"
-artistIds = ["s-don"]
 status = "forbidden"
 duration = "4:47"
 variant_of = "Malicious Mischance"
@@ -786,7 +710,6 @@ section = "单曲"
 [[track]]
 name = "Scarlet Cage (Long Version)"
 artist = "Daisuke Kurosawa"
-artistIds = ["daisuke_kurosawa"]
 status = "forbidden"
 duration = "4:20"
 variant_of = "Scarlet Cage"
@@ -796,7 +719,6 @@ section = "单曲"
 [[track]]
 name = "NEO WINGS -Extend Version-"
 artist = "SOUND HOLIC feat. Nana Takahashi"
-artistIds = ["sound_holic", "nana_takahashi"]
 status = "forbidden"
 duration = "3:44"
 variant_of = "NEO WINGS"
@@ -806,7 +728,6 @@ section = "单曲"
 [[track]]
 name = "Heavenly caress (long ver.)"
 artist = "Noah"
-artistIds = ["noah"]
 status = "forbidden"
 duration = "4:45"
 variant_of = "Heavenly caress"
@@ -816,7 +737,6 @@ section = "单曲"
 [[track]]
 name = "Be There (HiTECH NINJA Remix)"
 artist = "HiTECH NINJA"
-artistIds = ["hitech_ninja"]
 status = "forbidden"
 duration = "4:14"
 variant_of = "Be There"
@@ -826,7 +746,6 @@ section = "单曲"
 [[track]]
 name = "Xanatos-Platinum long ver-"
 artist = "Tatsh"
-artistIds = ["tatsh"]
 status = "forbidden"
 duration = "5:09"
 variant_of = "Xanatos"
@@ -836,7 +755,6 @@ section = "单曲"
 [[track]]
 name = "Xanatos -Nhato Remix-"
 artist = "Tatsh"
-artistIds = ["tatsh"]
 status = "forbidden"
 duration = "5:26"
 variant_of = "Xanatos"
@@ -846,7 +764,6 @@ section = "单曲"
 [[track]]
 name = "Libertas (Extended Mix)"
 artist = "Zekk"
-artistIds = ["zekk"]
 status = "forbidden"
 duration = "4:20"
 variant_of = "Libertas"
@@ -857,7 +774,6 @@ section = "单曲"
 [[track]]
 name = "Modelista (Extended)"
 artist = "HiTECH NINJA"
-artistIds = ["hitech_ninja"]
 status = "forbidden"
 duration = "4:27"
 variant_of = "Modelista"
@@ -867,7 +783,6 @@ section = "单曲"
 [[track]]
 name = "Fallensquare (\"Arcade\" Full Version)"
 artist = "Silentroom"
-artistIds = ["silentroom"]
 status = "forbidden"
 duration = "5:35"
 variant_of = "Fallensquare"
@@ -877,7 +792,6 @@ section = "单曲"
 [[track]]
 name = "Astral tale - Denebold"
 artist = "Noah"
-artistIds = ["noah"]
 status = "forbidden"
 duration = "5:36"
 variant_of = "Astral tale"
@@ -887,7 +801,6 @@ section = "单曲"
 [[track]]
 name = "BADTEK (Extended)"
 artist = "EBIMAYO"
-artistIds = ["ebimayo"]
 status = "forbidden"
 duration = "3:36"
 variant_of = "BADTEK"

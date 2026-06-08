@@ -3,7 +3,6 @@
 [[track]]
 name = "Heart Jackin'"
 artist = "Yu_Asahina"
-artistIds = ["yu_asahina"]
 status = "forbidden"
 songPack = "The Journey Onwards"
 section = "支线"
@@ -11,7 +10,6 @@ section = "支线"
 [[track]]
 name = "Beside You"
 artist = "江口孝宏"
-artistIds = ["江口孝宏"]
 status = "forbidden"
 songPack = "The Journey Onwards"
 duration = "1:50"
@@ -20,7 +18,6 @@ section = "支线"
 [[track]]
 name = "To：Alice Liddell"
 artist = "モリモリあつし"
-artistIds = ["モリモリあつし"]
 status = "forbidden"
 songPack = "The Journey Onwards"
 section = "支线"

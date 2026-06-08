@@ -3,7 +3,6 @@
 [[track]]
 name = "Paper Witch"
 artist = "Yu-dachi"
-artistIds = ["yu-dachi"]
 status = "forbidden"
 songPack = "Esoteric Order"
 note = "2020公募优胜曲"
@@ -12,7 +11,6 @@ section = "支线"
 [[track]]
 name = "Crystal Gravity"
 artist = "Tanchiky vs. siromaru"
-artistIds = ["tanchiky", "siromaru"]
 status = "forbidden"
 songPack = "Esoteric Order"
 duration = "2:04"
@@ -22,7 +20,6 @@ section = "支线"
 [[track]]
 name = "Far Away Light"
 artist = "technoplanet feat. はるの & 黒沢ダイスケ"
-artistIds = ["technoplanet", "はるの", "黒沢ダイスケ"]
 status = "forbidden"
 songPack = "Esoteric Order"
 note = "2020公募优胜曲"
@@ -31,7 +28,6 @@ section = "支线"
 [[track]]
 name = "Seclusion"
 artist = "Laur feat. Sennzai"
-artistIds = ["laur", "sennzai"]
 status = "forbidden"
 songPack = "Esoteric Order"
 note = "2020公募优胜曲"
@@ -40,7 +36,6 @@ section = "支线"
 [[track]]
 name = "Löschen"
 artist = "BlackY feat. Risa Yuzuki"
-artistIds = ["blacky", "risa_yuzuki"]
 status = "forbidden"
 songPack = "Esoteric Order"
 duration = "2:23"
@@ -50,7 +45,6 @@ section = "支线"
 [[track]]
 name = "Aegleseeker"
 artist = "Silentroom vs Frums"
-artistIds = ["silentroom", "frums"]
 status = "forbidden"
 songPack = "Esoteric Order"
 duration = "2:29"

@@ -3,7 +3,6 @@
 [[track]]
 name = "Silent Rush"
 artist = "Soleily"
-artistIds = ["soleily"]
 status = "forbidden"
 songPack = "Binary Enfold"
 section = "支线"
@@ -11,7 +10,6 @@ section = "支线"
 [[track]]
 name = "Strongholds"
 artist = "Yooh"
-artistIds = ["yooh"]
 status = "forbidden"
 songPack = "Binary Enfold"
 duration = "2:17"
@@ -20,7 +18,6 @@ section = "支线"
 [[track]]
 name = "next to you"
 artist = "uma、橘花音"
-artistIds = ["uma", "橘花音"]
 status = "forbidden"
 songPack = "Binary Enfold"
 duration = "2:13"
@@ -29,7 +26,6 @@ section = "支线"
 [[track]]
 name = "Memory Forest"
 artist = "ETIA."
-artistIds = ["etia"]
 status = "forbidden"
 songPack = "Binary Enfold"
 note = "爱托的角色曲"
@@ -38,7 +34,6 @@ section = "支线"
 [[track]]
 name = "Singularity"
 artist = "ETIA."
-artistIds = ["etia"]
 status = "forbidden"
 songPack = "Binary Enfold"
 duration = "2:06"
@@ -48,7 +43,6 @@ section = "支线"
 [[track]]
 name = "Singularity VVVIP"
 artist = "Arcaea Sound Team against. ETIA."
-artistIds = ["arcaea_sound_team_against_etia"]
 status = "forbidden"
 songPack = "Binary Enfold"
 duration = "2:17"

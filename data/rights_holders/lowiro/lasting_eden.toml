@@ -3,7 +3,6 @@
 [[track]]
 name = "WAIT FOR DAWN"
 artist = "U-ske feat. 棗いつき"
-artistIds = ["u-ske", "棗いつき"]
 status = "forbidden"
 songPack = "Lasting Eden"
 note = "2022公募优胜曲"
@@ -12,7 +11,6 @@ section = "主线 第二幕 Catastrophe"
 [[track]]
 name = "Rise of the World"
 artist = "cosMo@暴走P"
-artistIds = ["cosmo_暴走p"]
 status = "forbidden"
 songPack = "Lasting Eden"
 note = "2022公募优胜曲"
@@ -21,7 +19,6 @@ section = "主线 第二幕 Catastrophe"
 [[track]]
 name = "Raven's Pride"
 artist = "みーに feat. はらもりよしな"
-artistIds = ["みーに", "はらもりよしな"]
 status = "forbidden"
 songPack = "Lasting Eden"
 note = "2022公募优胜曲"
@@ -30,7 +27,6 @@ section = "主线 第二幕 Catastrophe"
 [[track]]
 name = "UNKNOWN LEVELS"
 artist = "Yuta Imai"
-artistIds = ["yuta_imai"]
 status = "forbidden"
 songPack = "Lasting Eden"
 note = "2022公募优胜曲"
@@ -39,7 +35,6 @@ section = "主线 第二幕 Catastrophe"
 [[track]]
 name = "Abstruse Dilemma"
 artist = "Ashrount vs. 打打だいず"
-artistIds = ["ashrount", "打打だいず"]
 status = "forbidden"
 songPack = "Lasting Eden"
 note = "2022公募冠军曲，摩耶的角色曲"

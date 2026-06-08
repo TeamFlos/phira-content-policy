@@ -3,7 +3,6 @@
 [[track]]
 name = "Defection"
 artist = "TeddyLoid feat.DELTA"
-artistIds = ["teddyloid_feat_delta"]
 status = "forbidden"
 songPack = "Final Verdict"
 section = "主线 第一幕"
@@ -11,7 +10,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Infinite Strife,"
 artist = "BlackYooh vs. siromaru"
-artistIds = ["blackyooh", "siromaru"]
 status = "forbidden"
 songPack = "Final Verdict"
 section = "主线 第一幕"
@@ -19,7 +17,6 @@ section = "主线 第一幕"
 [[track]]
 name = "World Ender"
 artist = "sasakure.UK × TJ.hangneil"
-artistIds = ["sasakure_uk", "tj_hangneil"]
 status = "forbidden"
 songPack = "Final Verdict"
 duration = "2:38"
@@ -28,7 +25,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Pentiment"
 artist = "Nothing But Requiem with Museo"
-artistIds = ["nothing_but_requiem_with_museo"]
 status = "forbidden"
 songPack = "Final Verdict"
 section = "主线 第一幕"
@@ -36,7 +32,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Arcana Eden"
 artist = "Team Grimoire vs Sakuzyo vs Laur"
-artistIds = ["team_grimoire", "sakuzyo", "laur"]
 status = "forbidden"
 songPack = "Final Verdict"
 duration = "3:02"
@@ -45,7 +40,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Testify"
 artist = "void (Mournfinale) feat. 星熊南巫"
-artistIds = ["void_mournfinale", "星熊南巫"]
 status = "forbidden"
 songPack = "Final Verdict"
 duration = "2:56"

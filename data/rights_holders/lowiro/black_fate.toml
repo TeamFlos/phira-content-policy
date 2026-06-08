@@ -3,7 +3,6 @@
 [[track]]
 name = "Equilibrium"
 artist = "Maozon"
-artistIds = ["maozon"]
 status = "forbidden"
 songPack = "Black Fate"
 section = "主线 第一幕"
@@ -11,7 +10,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Antagonism"
 artist = "Yooh、siromaru"
-artistIds = ["yooh", "siromaru"]
 status = "forbidden"
 songPack = "Black Fate"
 section = "主线 第一幕"
@@ -19,7 +17,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Lost Desire"
 artist = "無力P、Sennzai"
-artistIds = ["無力p", "sennzai"]
 status = "forbidden"
 songPack = "Black Fate"
 duration = "2:37"
@@ -28,7 +25,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Dantalion"
 artist = "Team Grimoire"
-artistIds = ["team_grimoire"]
 status = "forbidden"
 songPack = "Black Fate"
 duration = "2:32"
@@ -37,7 +33,6 @@ section = "主线 第一幕"
 [[track]]
 name = "#1f1e33"
 artist = "かめりあ"
-artistIds = ["かめりあ"]
 status = "forbidden"
 songPack = "Black Fate"
 duration = "2:49"
@@ -46,7 +41,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Tempestissimo"
 artist = "t+pazolite"
-artistIds = ["t_pazolite"]
 status = "forbidden"
 songPack = "Black Fate"
 duration = "2:18"
@@ -56,7 +50,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Arcahv"
 artist = "Feryquitous"
-artistIds = ["feryquitous"]
 status = "forbidden"
 songPack = "Black Fate"
 section = "主线 第一幕"

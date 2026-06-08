@@ -3,14 +3,12 @@
 [[track]]
 name = "Chronicle"
 artist = "Lime"
-artistIds = ["lime"]
 status = "forbidden"
 songPack = "World Extend"
 
 [[track]]
 name = "RGB"
 artist = "MEMODEMO x AQUASINE"
-artistIds = ["memodemo", "aquasine"]
 status = "forbidden"
 songPack = "World Extend"
 note = "2022公募优胜曲"
@@ -18,7 +16,6 @@ note = "2022公募优胜曲"
 [[track]]
 name = "Dynitikós"
 artist = "Prower"
-artistIds = ["prower"]
 status = "forbidden"
 songPack = "World Extend"
 note = "2022公募优胜曲"
@@ -26,7 +23,6 @@ note = "2022公募优胜曲"
 [[track]]
 name = "Amekagura"
 artist = "荒谷サトル"
-artistIds = ["荒谷サトル"]
 status = "forbidden"
 songPack = "World Extend"
 note = "2022公募优胜曲"
@@ -34,7 +30,6 @@ note = "2022公募优胜曲"
 [[track]]
 name = "FANTA5Y"
 artist = "Moon Jelly & YUKIYANAGI"
-artistIds = ["moon_jelly", "yukiyanagi"]
 status = "forbidden"
 songPack = "World Extend"
 note = "2022公募优胜曲"

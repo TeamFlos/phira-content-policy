@@ -3,7 +3,6 @@
 [[track]]
 name = "vsキミ戦争"
 artist = "U-ske、lueur"
-artistIds = ["u-ske", "lueur"]
 status = "forbidden"
 songPack = "Ambivalent Vision"
 section = "支线"
@@ -11,7 +10,6 @@ section = "支线"
 [[track]]
 name = "Blossoms"
 artist = "T2Kazuya"
-artistIds = ["t2kazuya"]
 status = "forbidden"
 songPack = "Ambivalent Vision"
 section = "支线"
@@ -19,7 +17,6 @@ section = "支线"
 [[track]]
 name = "Moonheart"
 artist = "翡乃イスカ"
-artistIds = ["翡乃イスカ"]
 status = "forbidden"
 songPack = "Ambivalent Vision"
 duration = "2:13"
@@ -28,7 +25,6 @@ section = "支线"
 [[track]]
 name = "Genesis"
 artist = "Iris"
-artistIds = ["iris"]
 status = "forbidden"
 songPack = "Ambivalent Vision"
 section = "支线"
@@ -36,7 +32,6 @@ section = "支线"
 [[track]]
 name = "Lethaeus"
 artist = "Silentroom"
-artistIds = ["silentroom"]
 status = "forbidden"
 songPack = "Ambivalent Vision"
 duration = "2:27"
@@ -46,7 +41,6 @@ section = "支线"
 [[track]]
 name = "corps-sans-organes"
 artist = "cybermiso"
-artistIds = ["cybermiso"]
 status = "forbidden"
 songPack = "Ambivalent Vision"
 duration = "2:36"

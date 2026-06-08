@@ -3,7 +3,6 @@
 [[track]]
 name = "Iconoclast"
 artist = "Yamajet"
-artistIds = ["yamajet"]
 status = "forbidden"
 songPack = "Vicious Labyrinth"
 duration = "2:06"
@@ -12,7 +11,6 @@ section = "主线 第一幕"
 [[track]]
 name = "妖艶魔女 -trappola bewitching-"
 artist = "gmtn."
-artistIds = ["gmtn"]
 status = "forbidden"
 songPack = "Vicious Labyrinth"
 duration = "2:00"
@@ -21,7 +19,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Axium Crisis"
 artist = "ak+q"
-artistIds = ["ak_q"]
 status = "forbidden"
 songPack = "Vicious Labyrinth"
 note = "对立（Axium）的角色曲"
@@ -30,7 +27,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Grievous Lady"
 artist = "Laur、Team Grimoire"
-artistIds = ["laur", "team_grimoire"]
 status = "forbidden"
 songPack = "Vicious Labyrinth"
 duration = "2:20"

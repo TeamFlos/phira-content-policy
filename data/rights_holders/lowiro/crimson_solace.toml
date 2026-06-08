@@ -3,7 +3,6 @@
 [[track]]
 name = "Paradise"
 artist = "Sound Souler"
-artistIds = ["sound_souler"]
 status = "forbidden"
 songPack = "Crimson Solace"
 duration = "2:29"
@@ -12,7 +11,6 @@ section = "支线"
 [[track]]
 name = "Flashback"
 artist = "ARForest"
-artistIds = ["arforest"]
 status = "forbidden"
 songPack = "Crimson Solace"
 duration = "2:07"
@@ -21,7 +19,6 @@ section = "支线"
 [[track]]
 name = "フライブルクとエンドロウル"
 artist = "アリスシャッハと魔法の楽団"
-artistIds = ["アリスシャッハと魔法の楽団"]
 status = "forbidden"
 songPack = "Crimson Solace"
 duration = "2:33"
@@ -30,7 +27,6 @@ section = "支线"
 [[track]]
 name = "Party Vinyl"
 artist = "モリモリあつし"
-artistIds = ["モリモリあつし"]
 status = "forbidden"
 songPack = "Crimson Solace"
 duration = "1:50"
@@ -39,7 +35,6 @@ section = "支线"
 [[track]]
 name = "Nirv lucE"
 artist = "しーけー"
-artistIds = ["しーけー"]
 status = "forbidden"
 songPack = "Crimson Solace"
 duration = "2:08"
@@ -49,7 +44,6 @@ section = "支线"
 [[track]]
 name = "GLORY：ROAD"
 artist = "Uma、モリモリあつし"
-artistIds = ["uma", "モリモリあつし"]
 status = "forbidden"
 songPack = "Crimson Solace"
 duration = "2:24"
