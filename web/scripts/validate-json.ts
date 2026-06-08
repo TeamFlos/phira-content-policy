@@ -59,10 +59,8 @@ if (!result.success) {
 
 const { rightsHolders, artists, independentTracks } = result.data;
 const trackCount =
-  Object.values(rightsHolders).reduce(
-    (n, r: { tracks: unknown[] }) => n + r.tracks.length,
-    0,
-  ) + (independentTracks ?? []).length;
+  Object.values(rightsHolders).reduce((n, r: { tracks: unknown[] }) => n + r.tracks.length, 0) +
+  (independentTracks ?? []).length;
 console.log(
   `OK: ${Object.keys(rightsHolders).length} rights holder(s), ${Object.keys(artists).length} artist(s), ${trackCount} track(s)`,
 );
