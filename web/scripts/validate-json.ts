@@ -7,6 +7,7 @@ const trackEntry = z.object({
   name: z.string().min(1),
   artist: z.string().min(1),
   artistIds: z.array(z.string()).optional(),
+  aliases: z.array(z.string()).optional(),
   status,
   note: z.string().optional(),
 });
@@ -23,6 +24,7 @@ const contentPolicy = z.object({
     z.string(),
     z.object({
       name: z.string().min(1),
+      aliases: z.array(z.string()).optional(),
       status,
       reason: z.string().optional(),
       note: z.string().optional(),

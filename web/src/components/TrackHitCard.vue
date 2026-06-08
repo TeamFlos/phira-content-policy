@@ -7,7 +7,7 @@ const props = defineProps<{ hit: TrackHit }>();
 
 const isRH = computed(() => props.hit.origin.kind === "rights_holder");
 const matchedLabel = computed(() => {
-  const map = { name: "曲名", artist: "作者" } as const;
+  const map = { name: "曲名", artist: "作者", alias: "别名" } as const;
   return props.hit.matchedOn.map((m) => map[m]).join(" + ");
 });
 const compositeLabel = computed(() => {

@@ -34,6 +34,8 @@ pub struct TrackEntry {
     pub artist: String,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub artist_ids: Option<Vec<String>>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub aliases: Vec<String>,
     pub status: Status,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub note: Option<String>,
@@ -47,6 +49,8 @@ pub struct TrackEntry {
 #[serde(rename_all = "camelCase")]
 pub struct Artist {
     pub name: String,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub aliases: Vec<String>,
     pub status: Status,
     #[serde(skip_serializing_if = "Option::is_none")]
     pub reason: Option<String>,

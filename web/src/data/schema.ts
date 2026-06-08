@@ -20,6 +20,7 @@ export const trackEntrySchema = z.object({
   name: z.string().min(1),
   artist: z.string().min(1),
   artistIds: z.array(z.string()).optional(),
+  aliases: z.array(z.string()).optional(),
   status: statusSchema,
   note: z.string().optional(),
 });
@@ -36,6 +37,7 @@ export const trackFileSchema = z.object({
  */
 export const artistSchema = z.object({
   name: z.string().min(1),
+  aliases: z.array(z.string()).optional(),
   status: statusSchema,
   reason: z.string().optional(),
   note: z.string().optional(),

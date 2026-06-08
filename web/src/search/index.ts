@@ -37,6 +37,7 @@ interface IndexedTrack {
   origin: TrackOrigin;
   nameNormalized: string;
   artistNormalized: string;
+  aliasesNormalized: string[];
 }
 
 interface IndexedRightsHolder {
@@ -50,6 +51,7 @@ interface IndexedArtist {
   id: string;
   artist: Artist;
   nameNormalized: string;
+  aliasesNormalized: string[];
 }
 
 export interface SearchIndex {
@@ -78,6 +80,7 @@ export function buildIndex(policy: ContentPolicy): SearchIndex {
         origin: { kind: "rights_holder", id, policy: rh.policy },
         nameNormalized: normalize(track.name),
         artistNormalized: normalize(track.artist),
+        aliasesNormalized: (track.aliases ?? []).map(normalize),
       });
     }
   }
@@ -88,6 +91,7 @@ export function buildIndex(policy: ContentPolicy): SearchIndex {
       origin: { kind: "independent" },
       nameNormalized: normalize(track.name),
       artistNormalized: normalize(track.artist),
+      aliasesNormalized: (track.aliases ?? []).map(normalize),
     });
   }
 
@@ -96,6 +100,7 @@ export function buildIndex(policy: ContentPolicy): SearchIndex {
       id,
       artist,
       nameNormalized: normalize(artist.name),
+      aliasesNormalized: (artist.aliases ?? []).map(normalize),
     });
   }
 
@@ -118,7 +123,7 @@ export interface LinkedArtist {
   artist: Artist | null;
 }
 
-export type TrackMatchField = "name" | "artist";
+export type TrackMatchField = "name" | "artist" | "alias";
 
 export interface TrackHit {
   track: TrackEntry;
@@ -204,6 +209,7 @@ export function search(index: SearchIndex, rawQuery: string): SearchResults {
     const matchedOn: TrackMatchField[] = [];
     if (it.nameNormalized.includes(q)) matchedOn.push("name");
     if (it.artistNormalized.includes(q)) matchedOn.push("artist");
+    if (it.aliasesNormalized.some((a) => a.includes(q))) matchedOn.push("alias");
     if (matchedOn.length === 0) continue;
     const linked = resolveLinkedArtists(it.track.artistIds ?? [], index.policy);
     const composite = compositeStatus(it.track, it.origin, linked);
@@ -224,7 +230,7 @@ export function search(index: SearchIndex, rawQuery: string): SearchResults {
 
   const artistHits: ArtistHit[] = [];
   for (const ia of index.artists) {
-    if (!ia.nameNormalized.includes(q)) continue;
+    if (!ia.nameNormalized.includes(q) && !ia.aliasesNormalized.some((a) => a.includes(q))) continue;
     artistHits.push({ id: ia.id, artist: ia.artist });
   }
 
