@@ -80,7 +80,7 @@ jobs:
           name: content-policy-json
 
       - name: Validate JSON
-        run: tsx scripts/validate-json.ts content-policy.json
+        run: npx tsx scripts/validate-json.ts content-policy.json
 
       - name: Build
         run: pnpm run build
