@@ -78,6 +78,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: content-policy-json
+          path: web
 
       - name: Validate JSON
         run: npx tsx scripts/validate-json.ts content-policy.json
