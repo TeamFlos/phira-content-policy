@@ -1,0 +1,32 @@
+# Chapter 0
+
+[[track]]
+name = "Acolyte"
+artist = "Stelli / catface"
+songPack = "Chapter 0"
+status = "free"
+
+[[track]]
+name = "grode(decoherence)"
+artist = "Frums"
+songPack = "Chapter 0"
+note = "You must also get dandeless' permission, as this is a remix of their work."
+
+[[track]]
+name = "execution_program"
+artist = "Lusumi"
+songPack = "Chapter 0"
+note = "The artist has declined permission for this song."
+status = "forbidden"
+
+[[track]]
+name = "Acolyte (Long Version)"
+artist = "Stelli / catface"
+songPack = "Chapter 0"
+status = "free"
+
+[[track]]
+name = "STARGAZERS"
+artist = "proxime()"
+songPack = "Chapter 0"
+note = "The song is generally considered too important to vivid/stasis, but it's been out for long enough that it's okay, but you must link back to the original game."
