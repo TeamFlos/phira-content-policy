@@ -11,6 +11,11 @@ struct TrackFile {
     track: Vec<TrackEntry>,
 }
 
+#[derive(Deserialize)]
+struct IndependentTrackFile {
+    track: Vec<IndependentTrackEntry>,
+}
+
 fn parse_toml_file<T: for<'de> Deserialize<'de>>(path: &Path) -> Result<T> {
     let content =
         fs::read_to_string(path).with_context(|| format!("Cannot read {}", path.display()))?;
@@ -83,7 +88,7 @@ fn load_artists(dir: &Path) -> Result<HashMap<String, Artist>> {
     Ok(map)
 }
 
-fn load_independent_tracks(dir: &Path) -> Result<Vec<TrackEntry>> {
+fn load_independent_tracks(dir: &Path) -> Result<Vec<IndependentTrackEntry>> {
     if !dir.exists() {
         return Ok(Vec::new());
     }
@@ -98,7 +103,7 @@ fn load_independent_tracks(dir: &Path) -> Result<Vec<TrackEntry>> {
         if !name.ends_with(".toml") || name.starts_with('.') {
             continue;
         }
-        let track_file: TrackFile = parse_toml_file(&entry.path())?;
+        let track_file: IndependentTrackFile = parse_toml_file(&entry.path())?;
         tracks.extend(track_file.track);
     }
     Ok(tracks)

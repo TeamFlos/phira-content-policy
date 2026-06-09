@@ -3,14 +3,12 @@
 [[track]]
 name = "Loveless Dress"
 artist = "かねこちはる"
-status = "forbidden"
 songPack = "Silent Answer"
 section = "主线 第一幕"
 
 [[track]]
 name = "Last"
 artist = "onoken"
-status = "forbidden"
 songPack = "Silent Answer"
 duration = "2:32"
 note = "光&对立（Reunion）的角色曲"
@@ -19,7 +17,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Last｜Moment"
 artist = "onoken"
-status = "forbidden"
 songPack = "Silent Answer"
 duration = "2:32"
 section = "主线 第一幕"
@@ -27,7 +24,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Last｜Eternity"
 artist = "onoken"
-status = "forbidden"
 songPack = "Silent Answer"
 duration = "2:32"
 section = "主线 第一幕"
@@ -35,6 +31,5 @@ section = "主线 第一幕"
 [[track]]
 name = "Callima Karma"
 artist = "t+pazolite vs Feryquitous"
-status = "forbidden"
 songPack = "Silent Answer"
 section = "主线 第一幕"

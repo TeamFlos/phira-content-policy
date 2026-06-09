@@ -3,21 +3,18 @@
 [[track]]
 name = "memoryfactory.lzh"
 artist = "Frums"
-status = "forbidden"
 songPack = "Eternal Core"
 section = "主线 第一幕"
 
 [[track]]
 name = "Lumia"
 artist = "sky_delta"
-status = "forbidden"
 songPack = "Eternal Core"
 section = "主线 第一幕"
 
 [[track]]
 name = "虚空の夢"
 artist = "ak+q、Sennzai"
-status = "forbidden"
 songPack = "Eternal Core"
 duration = "2:53"
 note = "Arcaea两周年纪念曲"
@@ -26,14 +23,12 @@ section = "主线 第一幕"
 [[track]]
 name = "Essence of Twilight"
 artist = "Essence of Twilight"
-status = "forbidden"
 songPack = "Eternal Core"
 section = "主线 第一幕"
 
 [[track]]
 name = "Sheriruth"
 artist = "Team Grimoire"
-status = "forbidden"
 songPack = "Eternal Core"
 duration = "2:17"
 note = "对立的角色曲"
@@ -42,7 +37,6 @@ section = "主线 第一幕"
 [[track]]
 name = "PRAGMATISM"
 artist = "Laur"
-status = "forbidden"
 songPack = "Eternal Core"
 duration = "2:00"
 note = "光的角色曲"
@@ -51,7 +45,6 @@ section = "主线 第一幕"
 [[track]]
 name = "PRAGMATISM -RESURRECTION-"
 artist = "Laur"
-status = "forbidden"
 songPack = "Eternal Core"
 duration = "2:38"
 section = "主线 第一幕"

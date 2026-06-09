@@ -8,6 +8,15 @@ const trackEntry = z.object({
   artist: z.string().min(1),
   artistIds: z.array(z.string()).optional(),
   aliases: z.array(z.string()).optional(),
+  status: status.optional(),
+  note: z.string().optional(),
+});
+
+const independentTrackEntry = z.object({
+  name: z.string().min(1),
+  artist: z.string().min(1),
+  artistIds: z.array(z.string()).optional(),
+  aliases: z.array(z.string()).optional(),
   status,
   note: z.string().optional(),
 });
@@ -31,7 +40,7 @@ const contentPolicy = z.object({
       references: z.array(z.string()).optional(),
     }),
   ),
-  independentTracks: z.array(trackEntry).optional(),
+  independentTracks: z.array(independentTrackEntry).optional(),
 });
 
 const filePath = process.argv[2];

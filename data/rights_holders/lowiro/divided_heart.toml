@@ -3,7 +3,6 @@
 [[track]]
 name = "First Snow"
 artist = "黒魔"
-status = "forbidden"
 songPack = "Divided Heart"
 duration = "2:40"
 section = "支线"
@@ -11,14 +10,12 @@ section = "支线"
 [[track]]
 name = "Blue Rose"
 artist = "Cosmograph"
-status = "forbidden"
 songPack = "Divided Heart"
 section = "支线"
 
 [[track]]
 name = "Blocked Library"
 artist = "影虎。"
-status = "forbidden"
 songPack = "Divided Heart"
 duration = "2:14"
 section = "支线"
@@ -26,7 +23,6 @@ section = "支线"
 [[track]]
 name = "neo kosmo"
 artist = "ak+q × Street"
-status = "forbidden"
 songPack = "Divided Heart"
 note = "原标题为“nέo κósmo”"
 section = "支线"
@@ -34,7 +30,6 @@ section = "支线"
 [[track]]
 name = "Lightning Screw"
 artist = "HiTECH NINJA"
-status = "forbidden"
 songPack = "Divided Heart"
 note = "白姬的角色曲"
 section = "支线"

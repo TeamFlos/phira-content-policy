@@ -3,51 +3,43 @@
 [[track]]
 name = "Vexaria"
 artist = "ak+q"
-status = "forbidden"
 songPack = "Arcaea"
 
 [[track]]
 name = "Shades of Light in a Transcendent Realm"
 artist = "ak+q"
-status = "forbidden"
 songPack = "Arcaea"
 
 [[track]]
 name = "inkar-usi"
 artist = "DIA"
-status = "forbidden"
 songPack = "Arcaea"
 
 [[track]]
 name = "Syro"
 artist = "Mitomoro"
-status = "forbidden"
 songPack = "Arcaea"
 
 [[track]]
 name = "Cybernecia Catharsis"
 artist = "Tanchiky"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:14"
 
 [[track]]
 name = "Purgatorium"
 artist = "お月さま交響曲"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:31"
 
 [[track]]
 name = "白道、多希望羊と信じありく。"
 artist = "大瀬良あい、Apo11o program"
-status = "forbidden"
 songPack = "Arcaea"
 
 [[track]]
 name = "Blaster"
 artist = "Massive New Krew"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:17"
 note = "Arcaea一周年纪念曲"
@@ -55,27 +47,23 @@ note = "Arcaea一周年纪念曲"
 [[track]]
 name = "Oblivia"
 artist = "Saiph"
-status = "forbidden"
 songPack = "Arcaea"
 
 [[track]]
 name = "Diode"
 artist = "Kolaa"
-status = "forbidden"
 songPack = "Arcaea"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "FREEF4LL"
 artist = "YUKIYANAGI"
-status = "forbidden"
 songPack = "Arcaea"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "Monochrome Princess"
 artist = "polysha"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:17"
 note = "2019公募优胜曲"
@@ -83,21 +71,18 @@ note = "2019公募优胜曲"
 [[track]]
 name = "Senkyou"
 artist = "MYTK"
-status = "forbidden"
 songPack = "Arcaea"
 note = "2019公募优胜曲"
 
 [[track]]
 name = "Ignotus"
 artist = "ak+q"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:27"
 
 [[track]]
 name = "Ignotus Afterburn"
 artist = "Arcaea Sound Team"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:20"
 note = "Arcaea官方原声专辑四 Memories of Dreams，2018年愚人节曲"
@@ -106,14 +91,12 @@ preview = "qq音乐地址"
 [[track]]
 name = "Red and Blue"
 artist = "Silentroom"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:01"
 
 [[track]]
 name = "Red and Blue and Green"
 artist = "FN"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:31"
 note = "Arcaea官方原声专辑三 Memories of Realms，2019年愚人节曲"
@@ -122,12 +105,10 @@ preview = "b站地址"
 [[track]]
 name = "san skia"
 artist = "ユアミトス"
-status = "forbidden"
 songPack = "Arcaea"
 duration = "2:47"
 
 [[track]]
 name = "Trap Crow"
 artist = "Puru"
-status = "forbidden"
 songPack = "Arcaea"

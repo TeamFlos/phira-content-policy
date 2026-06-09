@@ -3,21 +3,18 @@
 [[track]]
 name = "Corruption"
 artist = "3R2"
-status = "forbidden"
 songPack = "Absolute Reason"
 section = "支线"
 
 [[track]]
 name = "Antithese"
 artist = "Blacklolita"
-status = "forbidden"
 songPack = "Absolute Reason"
 section = "支线"
 
 [[track]]
 name = "Black Territory"
 artist = "DJ Myosuke"
-status = "forbidden"
 songPack = "Absolute Reason"
 duration = "2:19"
 section = "支线"
@@ -25,7 +22,6 @@ section = "支线"
 [[track]]
 name = "Vicious Heroism"
 artist = "Kobaryo"
-status = "forbidden"
 songPack = "Absolute Reason"
 duration = "2:21"
 section = "支线"
@@ -33,7 +29,6 @@ section = "支线"
 [[track]]
 name = "Cyaegha"
 artist = "USAO"
-status = "forbidden"
 songPack = "Absolute Reason"
 duration = "2:20"
 section = "支线"

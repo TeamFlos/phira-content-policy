@@ -3,14 +3,12 @@
 [[track]]
 name = "九番目の迷路"
 artist = "アリスシャッハと魔法の楽団"
-status = "forbidden"
 songPack = "Luminous Sky"
 section = "主线 第一幕"
 
 [[track]]
 name = "Sulfur"
 artist = "ぺのれり"
-status = "forbidden"
 songPack = "Luminous Sky"
 duration = "2:22"
 section = "主线 第一幕"
@@ -18,14 +16,12 @@ section = "主线 第一幕"
 [[track]]
 name = "The Message"
 artist = "Jun Kuroda"
-status = "forbidden"
 songPack = "Luminous Sky"
 section = "主线 第一幕"
 
 [[track]]
 name = "Ether Strike"
 artist = "Akira Complex"
-status = "forbidden"
 songPack = "Luminous Sky"
 duration = "2:22"
 note = "光（Zero）的角色曲"
@@ -34,7 +30,6 @@ section = "主线 第一幕"
 [[track]]
 name = "Fracture Ray"
 artist = "削除"
-status = "forbidden"
 songPack = "Luminous Sky"
 duration = "2:35"
 note = "光（Fracture）的角色曲"

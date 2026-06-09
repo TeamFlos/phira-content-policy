@@ -21,10 +21,21 @@ export const trackEntrySchema = z.object({
   artist: z.string().min(1),
   artistIds: z.array(z.string()).optional(),
   aliases: z.array(z.string()).optional(),
+  status: statusSchema.optional(),
+  note: z.string().optional(),
+});
+
+/** 独立曲目用 — status 必须显式声明（无版权方可继承） */
+export const independentTrackEntrySchema = z.object({
+  name: z.string().min(1),
+  artist: z.string().min(1),
+  artistIds: z.array(z.string()).optional(),
+  aliases: z.array(z.string()).optional(),
   status: statusSchema,
   note: z.string().optional(),
 });
 export type TrackEntry = z.infer<typeof trackEntrySchema>;
+export type IndependentTrackEntry = z.infer<typeof independentTrackEntrySchema>;
 
 /** 包含 [[track]] 数组的 toml 文件结构 */
 export const trackFileSchema = z.object({
@@ -64,5 +75,5 @@ export interface ResolvedRightsHolder {
 export interface ContentPolicy {
   rightsHolders: Record<string, ResolvedRightsHolder>;
   artists: Record<string, Artist>;
-  independentTracks: TrackEntry[];
+  independentTracks: IndependentTrackEntry[];
 }

@@ -1,17 +1,23 @@
 import { readFile, readdir } from "node:fs/promises";
 import { join } from "node:path";
 import { parse } from "smol-toml";
-import type { z } from "zod";
+import { z } from "zod";
 import {
   artistSchema,
+  independentTrackEntrySchema,
   rightsHolderPolicySchema,
   trackFileSchema,
   type Artist,
   type ContentPolicy,
+  type IndependentTrackEntry,
   type ResolvedRightsHolder,
   type RightsHolderPolicy,
   type TrackEntry,
 } from "./schema";
+
+const independentTrackFileSchema = z.object({
+  track: z.array(independentTrackEntrySchema),
+});
 
 export type LoadError =
   | { filePath: string; kind: "parse"; message: string }
@@ -107,8 +113,8 @@ async function loadArtist(filePath: string): Promise<LoadResult<Artist>> {
   return parseTOML(filePath, artistSchema);
 }
 
-async function loadIndependentFile(filePath: string): Promise<LoadResult<TrackEntry[]>> {
-  const result = await parseTOML(filePath, trackFileSchema);
+async function loadIndependentFile(filePath: string): Promise<LoadResult<IndependentTrackEntry[]>> {
+  const result = await parseTOML(filePath, independentTrackFileSchema);
   if ("errors" in result) return result;
   return { data: result.data.track };
 }
@@ -179,7 +185,9 @@ async function loadArtists(dataDir: string): Promise<LoadResult<Record<string, A
   return { data };
 }
 
-async function loadIndependentTracks(dataDir: string): Promise<LoadResult<TrackEntry[]>> {
+async function loadIndependentTracks(
+  dataDir: string,
+): Promise<LoadResult<IndependentTrackEntry[]>> {
   const dir = join(dataDir, "independent");
   const dirEntries = await readDirSafe(dir);
   if (!Array.isArray(dirEntries)) return { errors: [dirEntries] };
@@ -189,7 +197,7 @@ async function loadIndependentTracks(dataDir: string): Promise<LoadResult<TrackE
 
   const results = await Promise.all(entries.map((e) => loadIndependentFile(join(dir, e.name))));
 
-  const good: TrackEntry[][] = [];
+  const good: IndependentTrackEntry[][] = [];
   const bad: LoadError[] = [];
   for (const r of results) {
     if ("errors" in r) {

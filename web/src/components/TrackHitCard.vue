@@ -37,8 +37,11 @@ const compositeLabel = computed(() => {
     <ul class="dims">
       <li class="dim">
         <span class="dim-label">曲目自身</span>
-        <StatusBadge :status="hit.track.status" />
-        <p v-if="hit.track.note" class="dim-note">{{ hit.track.note }}</p>
+        <template v-if="hit.track.status">
+          <StatusBadge :status="hit.track.status" />
+          <p v-if="hit.track.note" class="dim-note">{{ hit.track.note }}</p>
+        </template>
+        <span v-else class="dim-inherit">继承版权方</span>
       </li>
 
       <li v-if="isRH && hit.origin.kind === 'rights_holder'" class="dim">
@@ -174,6 +177,10 @@ const compositeLabel = computed(() => {
   align-items: baseline;
   gap: var(--space-2);
   flex-wrap: wrap;
+}
+.dim-inherit {
+  color: var(--color-text-tertiary);
+  font-size: 13px;
 }
 .dim-empty {
   color: var(--color-text-tertiary);

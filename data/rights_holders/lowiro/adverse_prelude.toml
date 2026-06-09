@@ -3,7 +3,6 @@
 [[track]]
 name = "Vindication"
 artist = "Laur"
-status = "forbidden"
 songPack = "Adverse Prelude"
 duration = "2:30"
 section = "主线 第一幕"
@@ -11,14 +10,12 @@ section = "主线 第一幕"
 [[track]]
 name = "Heavensdoor"
 artist = "LeaF"
-status = "forbidden"
 songPack = "Adverse Prelude"
 section = "主线 第一幕"
 
 [[track]]
 name = "BLRINK"
 artist = "Sta"
-status = "forbidden"
 songPack = "Adverse Prelude"
 duration = "2:42"
 section = "主线 第一幕"
@@ -26,6 +23,5 @@ section = "主线 第一幕"
 [[track]]
 name = "Ringed Genesis"
 artist = "Edelritter"
-status = "forbidden"
 songPack = "Adverse Prelude"
 section = "主线 第一幕"

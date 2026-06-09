@@ -169,7 +169,8 @@ function compositeStatus(
   origin: TrackOrigin,
   linked: readonly LinkedArtist[],
 ): Status {
-  const statuses: Status[] = [track.status];
+  const statuses: Status[] = [];
+  if (track.status) statuses.push(track.status);
   if (origin.kind === "rights_holder") statuses.push(origin.policy.status);
   for (const la of linked) {
     if (la.artist) statuses.push(la.artist.status);

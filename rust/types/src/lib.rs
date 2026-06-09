@@ -36,8 +36,25 @@ pub struct TrackEntry {
     pub artist_ids: Option<Vec<String>>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
     pub aliases: Vec<String>,
-    pub status: Status,
     #[serde(skip_serializing_if = "Option::is_none")]
+    /// `None` 表示继承所属 Rights Holder 的 policy，`Some` 则覆盖之
+    pub status: Option<Status>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub note: Option<String>,
+}
+
+/** 独立曲目 — status 必须显式声明，无版权方可继承 */
+#[derive(Debug, Clone, PartialEq, Eq, Serialize, Deserialize)]
+#[serde(rename_all = "camelCase")]
+pub struct IndependentTrackEntry {
+    pub name: String,
+    pub artist: String,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub artist_ids: Option<Vec<String>>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    pub aliases: Vec<String>,
+    pub status: Status,
+    #[serde(default, skip_serializing_if = "Option::is_none")]
     pub note: Option<String>,
 }
 
@@ -87,5 +104,5 @@ pub struct ContentPolicy {
     #[serde(default)]
     pub artists: HashMap<String, Artist>,
     #[serde(default, skip_serializing_if = "Vec::is_empty")]
-    pub independent_tracks: Vec<TrackEntry>,
+    pub independent_tracks: Vec<IndependentTrackEntry>,
 }

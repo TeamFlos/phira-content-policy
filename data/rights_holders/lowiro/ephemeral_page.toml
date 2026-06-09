@@ -3,7 +3,6 @@
 [[track]]
 name = "Alice's Suitcase"
 artist = "Endorfin."
-status = "forbidden"
 songPack = "Ephemeral Page"
 duration = "2:31"
 section = "支线"
@@ -11,28 +10,24 @@ section = "支线"
 [[track]]
 name = "Alice à la mode"
 artist = "Masanori Akita"
-status = "forbidden"
 songPack = "Ephemeral Page"
 section = "支线"
 
 [[track]]
 name = "Eccentric Tale"
 artist = "Yamajet"
-status = "forbidden"
 songPack = "Ephemeral Page"
 section = "支线"
 
 [[track]]
 name = "Jump"
 artist = "Rasmus Faber"
-status = "forbidden"
 songPack = "Ephemeral Page"
 section = "支线"
 
 [[track]]
 name = "Felis"
 artist = "M2U"
-status = "forbidden"
 songPack = "Ephemeral Page"
 note = "爱丽丝&坦尼尔的角色曲"
 section = "支线"

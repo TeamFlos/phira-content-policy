@@ -3,46 +3,39 @@
 [[track]]
 name = "Vivid Theory"
 artist = "ak+q"
-status = "forbidden"
 songPack = "Extend Archive"
 
 [[track]]
 name = "Give Me a Nightmare"
 artist = "アリスシャッハと魔法の楽団"
-status = "forbidden"
 songPack = "Extend Archive"
 
 [[track]]
 name = "Purple Verse"
 artist = "Hommarju"
-status = "forbidden"
 songPack = "Extend Archive"
 
 [[track]]
 name = "Glow"
 artist = "SPACELECTRO"
-status = "forbidden"
 songPack = "Extend Archive"
 duration = "2:18"
 
 [[track]]
 name = "Vandalism"
 artist = "Ashrount"
-status = "forbidden"
 songPack = "Extend Archive"
 note = "2020公募优胜曲"
 
 [[track]]
 name = "Turbocharger"
 artist = "A/I"
-status = "forbidden"
 songPack = "Extend Archive"
 note = "2020公募优胜曲"
 
 [[track]]
 name = "False Embellishment"
 artist = "影虎。& ikaruga_nex"
-status = "forbidden"
 songPack = "Extend Archive"
 duration = "2:29"
 note = "2020公募优胜曲,原标题为“狂言綺語”"
@@ -50,12 +43,10 @@ note = "2020公募优胜曲,原标题为“狂言綺語”"
 [[track]]
 name = "HIVEMIND"
 artist = "かたぎり"
-status = "forbidden"
 songPack = "Extend Archive"
 note = "2020公募优胜曲"
 
 [[track]]
 name = "blue comet"
 artist = "ああああ"
-status = "forbidden"
 songPack = "Extend Archive"
