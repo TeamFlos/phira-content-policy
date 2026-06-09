@@ -1,0 +1,11 @@
+[package]
+name = "phira-content-policy-meili"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+phira-content-policy-types.workspace = true
+serde.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

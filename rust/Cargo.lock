@@ -54,6 +54,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "phira-content-policy-meili"
+version = "0.1.0"
+dependencies = [
+ "phira-content-policy-types",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "phira-content-policy-types"
 version = "0.1.0"
 dependencies = [
