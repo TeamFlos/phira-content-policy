@@ -230,7 +230,8 @@ export function search(index: SearchIndex, rawQuery: string): SearchResults {
 
   const artistHits: ArtistHit[] = [];
   for (const ia of index.artists) {
-    if (!ia.nameNormalized.includes(q) && !ia.aliasesNormalized.some((a) => a.includes(q))) continue;
+    if (!ia.nameNormalized.includes(q) && !ia.aliasesNormalized.some((a) => a.includes(q)))
+      continue;
     artistHits.push({ id: ia.id, artist: ia.artist });
   }
 
