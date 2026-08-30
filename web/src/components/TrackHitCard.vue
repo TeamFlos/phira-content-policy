@@ -17,11 +17,11 @@ const compositeLabel = computed(() => {
 </script>
 
 <template>
-  <article class="card track">
+  <article class="card track" :class="`card-status-${hit.composite}`">
     <header class="head">
       <div class="title-row">
         <h3 class="name" :title="hit.track.name">{{ hit.track.name }}</h3>
-        <span class="matched-on">命中 {{ matchedLabel }}</span>
+        <span v-if="hit.matchedOn.length > 0" class="matched-on">命中 {{ matchedLabel }}</span>
       </div>
       <p class="artist">{{ hit.track.artist }}</p>
     </header>
@@ -84,6 +84,18 @@ const compositeLabel = computed(() => {
 .card.track {
   padding: var(--space-5);
   gap: var(--space-4);
+}
+.card-status-forbidden {
+  border-color: var(--color-forbidden-card-border);
+  background: var(--color-forbidden-card-bg);
+}
+.card-status-restricted {
+  border-color: var(--color-restricted-card-border);
+  background: var(--color-restricted-card-bg);
+}
+.card-status-free {
+  border-color: var(--color-free-card-border);
+  background: var(--color-free-card-bg);
 }
 
 .head {
