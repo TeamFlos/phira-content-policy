@@ -65,15 +65,25 @@ const labels: Record<Status, string> = {
   font-size: 12px;
   font-weight: 400;
   line-height: 1.55;
+  visibility: hidden;
   opacity: 0;
-  pointer-events: none;
+  pointer-events: auto;
   transform: translateY(3px);
   transition:
     opacity 120ms ease,
     transform 120ms ease;
 }
+.tooltip::after {
+  position: absolute;
+  top: 100%;
+  right: -8px;
+  left: -8px;
+  height: 8px;
+  content: "";
+}
 .badge-wrap:hover .tooltip,
 .badge-wrap:focus-visible .tooltip {
+  visibility: visible;
   opacity: 1;
   transform: translateY(0);
 }
