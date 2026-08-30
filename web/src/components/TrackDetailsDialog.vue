@@ -95,8 +95,6 @@ dialog::backdrop {
 }
 .dialog-head {
   display: flex;
-  position: relative;
-  z-index: 0;
   align-items: flex-start;
   justify-content: space-between;
   gap: var(--space-4);
@@ -128,8 +126,6 @@ dialog::backdrop {
 .track-list {
   display: flex;
   flex-direction: column;
-  position: relative;
-  z-index: 1;
   gap: 2px;
   max-height: 520px;
   overflow: auto;
@@ -137,7 +133,6 @@ dialog::backdrop {
 }
 .track-list li {
   display: flex;
-  position: relative;
   align-items: center;
   justify-content: space-between;
   gap: var(--space-4);
@@ -145,10 +140,6 @@ dialog::backdrop {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   background: var(--color-bg);
-}
-.track-list li:has(.badge-wrap:hover),
-.track-list li:has(.badge-wrap:focus-visible) {
-  z-index: 2;
 }
 .track-copy {
   display: flex;
