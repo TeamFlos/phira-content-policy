@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed, ref, watch } from "vue";
 import BrowseControls from "./components/BrowseControls.vue";
 import ReportDialog from "./components/ReportDialog.vue";
 import SearchBar from "./components/SearchBar.vue";
@@ -24,6 +24,11 @@ const results = useSearch(query, options);
 const hasFilters = computed(
   () => kind.value !== "all" || status.value !== "all" || sort.value !== "count",
 );
+
+watch([status, sort], ([currentStatus, currentSort]) => {
+  const isStatusPrioritySort = currentSort === "severity" || currentSort === "severityAsc";
+  if (currentStatus !== "all" && isStatusPrioritySort) sort.value = "count";
+});
 
 function clearFilters(): void {
   kind.value = "all";

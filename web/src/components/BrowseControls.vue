@@ -45,8 +45,8 @@ function activate(): void {
           <option value="nameDesc">Z–A</option>
           <option value="addedAt">最新添加</option>
           <option value="addedAtAsc">最早添加</option>
-          <option value="severity">禁止优先</option>
-          <option value="severityAsc">可用优先</option>
+          <option value="severity" :disabled="status !== 'all'">禁止优先</option>
+          <option value="severityAsc" :disabled="status !== 'all'">可用优先</option>
         </select>
       </label>
     </div>
