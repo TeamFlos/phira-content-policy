@@ -52,7 +52,7 @@ const labels: Record<Status, string> = {
 }
 .tooltip {
   position: absolute;
-  z-index: 20;
+  z-index: 100;
   right: 0;
   bottom: calc(100% + 8px);
   width: min(320px, 60vw);
