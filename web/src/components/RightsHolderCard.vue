@@ -22,8 +22,6 @@ defineProps<{ hit: RightsHolderHit }>();
       :title="`${hit.policy.name} 旗下曲目`"
       trigger-label="查看旗下曲目"
       :tracks="hit.tracks"
-      :fallback-status="hit.policy.status"
-      :fallback-note="hit.policy.note"
     />
   </article>
 </template>

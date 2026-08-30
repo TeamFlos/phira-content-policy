@@ -1,14 +1,12 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import type { Status, TrackEntry } from "../data/schema";
+import type { RelatedTrack } from "../search/index";
 import StatusBadge from "./StatusBadge.vue";
 
 const props = defineProps<{
   title: string;
   triggerLabel: string;
-  tracks: readonly TrackEntry[];
-  fallbackStatus?: Status;
-  fallbackNote?: string;
+  tracks: readonly RelatedTrack[];
 }>();
 
 const dialog = ref<HTMLDialogElement | null>(null);
@@ -44,16 +42,19 @@ function closeOnBackdrop(event: MouseEvent): void {
       </header>
 
       <ul class="track-list">
-        <li v-for="(track, i) in props.tracks" :key="`${track.name}-${track.artist}-${i}`">
+        <li
+          v-for="(relatedTrack, i) in props.tracks"
+          :key="`${relatedTrack.track.name}-${relatedTrack.track.artist}-${i}`"
+        >
           <div class="track-copy">
-            <span class="track-name">{{ track.name }}</span>
-            <span class="track-artist">{{ track.artist }}</span>
+            <span class="track-name">{{ relatedTrack.track.name }}</span>
+            <span class="track-artist">{{ relatedTrack.track.artist }}</span>
           </div>
-          <StatusBadge
-            v-if="track.status || fallbackStatus"
-            :status="track.status ?? fallbackStatus!"
-            :note="track.note || fallbackNote"
-          />
+          <div class="track-policy">
+            <StatusBadge :status="relatedTrack.composite" :note="relatedTrack.note" />
+            <span v-if="!relatedTrack.track.status" class="inheritance">继承版权方</span>
+            <span v-else class="inheritance">曲目自身</span>
+          </div>
         </li>
       </ul>
     </div>
@@ -161,6 +162,17 @@ dialog::backdrop {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.track-policy {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 0 0 auto;
+}
+.inheritance {
+  color: var(--color-text-tertiary);
+  font-size: 11px;
+  white-space: nowrap;
+}
 @media (max-width: 520px) {
   .dialog-panel {
     padding: var(--space-4);
@@ -169,6 +181,9 @@ dialog::backdrop {
     align-items: flex-start;
     flex-direction: column;
     gap: var(--space-2);
+  }
+  .track-policy {
+    align-self: stretch;
   }
 }
 </style>

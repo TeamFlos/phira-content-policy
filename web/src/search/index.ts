@@ -182,12 +182,18 @@ export interface TrackHit {
   catalogSize: number;
 }
 
+export interface RelatedTrack {
+  track: TrackEntry;
+  composite: Status;
+  note?: string;
+}
+
 export interface RightsHolderHit {
   id: string;
   policy: RightsHolderPolicy;
   trackCount: number;
   addedAt: string;
-  tracks: readonly TrackEntry[];
+  tracks: readonly RelatedTrack[];
 }
 
 export interface ArtistHit {
@@ -195,7 +201,7 @@ export interface ArtistHit {
   artist: Artist;
   trackCount: number;
   addedAt: string;
-  tracks: readonly TrackEntry[];
+  tracks: readonly RelatedTrack[];
 }
 
 export interface SearchResults {
@@ -316,7 +322,16 @@ export function search(
         policy: ir.policy,
         trackCount: ir.trackCount,
         addedAt: ir.addedAt,
-        tracks: index.policy.rightsHolders[ir.id]?.tracks ?? [],
+        tracks: index.tracks
+          .filter((track) => track.origin.kind === "rights_holder" && track.origin.id === ir.id)
+          .map((track) => {
+            const linked = resolveLinkedArtists(track.track.artistIds ?? [], index.policy);
+            return {
+              track: track.track,
+              composite: compositeStatus(track.track, track.origin, linked),
+              note: track.track.note ?? ir.policy.note,
+            };
+          }),
       });
     }
 
@@ -337,7 +352,14 @@ export function search(
         addedAt: ia.addedAt,
         tracks: index.tracks
           .filter((track) => artistMatchesTrack(ia.artist, track, ia.id))
-          .map((track) => track.track),
+          .map((track) => {
+            const linked = resolveLinkedArtists(track.track.artistIds ?? [], index.policy);
+            return {
+              track: track.track,
+              composite: compositeStatus(track.track, track.origin, linked),
+              note: track.track.note ?? ia.artist.note,
+            };
+          }),
       });
     }
 
