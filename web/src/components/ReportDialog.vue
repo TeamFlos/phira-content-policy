@@ -12,7 +12,7 @@ const groupedTemplates = computed(() => {
     { name: string; description: string; templates: (typeof templates.value)[number][] }
   >();
   for (const template of templates.value) {
-    const groupId = template.fileName.replace(/-(?:zh|en)(?=\.ya?ml$)/i, "");
+    const groupId = template.fileName.replace(/^\d+-/, "").replace(/-(?:zh|en)(?=\.ya?ml$)/i, "");
     const group = groups.get(groupId) ?? {
       name: template.name,
       description: template.description,
