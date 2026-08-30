@@ -8,6 +8,7 @@ const props = defineProps<{
   triggerLabel: string;
   tracks: readonly TrackEntry[];
   fallbackStatus?: Status;
+  fallbackNote?: string;
 }>();
 
 const dialog = ref<HTMLDialogElement | null>(null);
@@ -50,6 +51,7 @@ function closeOnBackdrop(event: MouseEvent): void {
           <StatusBadge
             v-if="track.status || fallbackStatus"
             :status="track.status ?? fallbackStatus!"
+            :note="track.note || fallbackNote"
           />
         </li>
       </ul>

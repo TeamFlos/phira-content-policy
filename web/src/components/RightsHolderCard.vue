@@ -13,7 +13,7 @@ defineProps<{ hit: RightsHolderHit }>();
         {{ hit.policy.name }}
         <span class="id mono">/{{ hit.id }}</span>
       </h3>
-      <StatusBadge :status="hit.policy.status" />
+      <StatusBadge :status="hit.policy.status" :note="hit.policy.note" />
     </header>
     <p v-if="hit.policy.note" class="note">{{ hit.policy.note }}</p>
     <p class="meta">收录 {{ hit.trackCount }} 首曲目</p>
@@ -23,6 +23,7 @@ defineProps<{ hit: RightsHolderHit }>();
       trigger-label="查看旗下曲目"
       :tracks="hit.tracks"
       :fallback-status="hit.policy.status"
+      :fallback-note="hit.policy.note"
     />
   </article>
 </template>

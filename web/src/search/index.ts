@@ -82,6 +82,20 @@ function trackMetadataKey(origin: TrackOrigin, name: string, artist: string): st
   ]);
 }
 
+function artistMatchesTrack(artist: Artist, indexedTrack: IndexedTrack, artistId: string): boolean {
+  if ((indexedTrack.track.artistIds ?? []).includes(artistId)) return true;
+  const names = [artist.name, ...(artist.aliases ?? [])].map(normalize).filter(Boolean);
+  if (names.length === 0) return false;
+  const credits = indexedTrack.artistNormalized
+    .split(/[,，、/&×]|\s+(?:feat\.?|ft\.?)\s+/i)
+    .map((credit) => credit.trim())
+    .filter(Boolean);
+  return names.some(
+    (name) =>
+      credits.includes(name) || (name.length > 2 && indexedTrack.artistNormalized.includes(name)),
+  );
+}
+
 export function buildIndex(policy: ContentPolicy, metadata?: EntryMetadata): SearchIndex {
   const tracks: IndexedTrack[] = [];
   const rightsHolders: IndexedRightsHolder[] = [];
@@ -123,13 +137,16 @@ export function buildIndex(policy: ContentPolicy, metadata?: EntryMetadata): Sea
   }
 
   for (const [id, artist] of Object.entries(policy.artists)) {
+    const artistTracks = tracks
+      .filter((track) => artistMatchesTrack(artist, track, id))
+      .map((track) => track.track);
     artists.push({
       id,
       artist,
       nameNormalized: normalize(artist.name),
       aliasesNormalized: (artist.aliases ?? []).map(normalize),
       addedAt: metadata?.artists[id] ?? "",
-      trackCount: tracks.filter((track) => (track.track.artistIds ?? []).includes(id)).length,
+      trackCount: artistTracks.length,
     });
   }
 
@@ -319,7 +336,7 @@ export function search(
         trackCount: ia.trackCount,
         addedAt: ia.addedAt,
         tracks: index.tracks
-          .filter((track) => (track.track.artistIds ?? []).includes(ia.id))
+          .filter((track) => artistMatchesTrack(ia.artist, track, ia.id))
           .map((track) => track.track),
       });
     }

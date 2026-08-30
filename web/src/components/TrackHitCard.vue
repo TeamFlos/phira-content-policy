@@ -38,7 +38,7 @@ const compositeLabel = computed(() => {
       <li class="dim">
         <span class="dim-label">曲目自身</span>
         <template v-if="hit.track.status">
-          <StatusBadge :status="hit.track.status" />
+          <StatusBadge :status="hit.track.status" :note="hit.track.note" />
           <p v-if="hit.track.note" class="dim-note">{{ hit.track.note }}</p>
         </template>
         <span v-else class="dim-inherit">继承版权方</span>
@@ -46,7 +46,7 @@ const compositeLabel = computed(() => {
 
       <li v-if="isRH && hit.origin.kind === 'rights_holder'" class="dim">
         <span class="dim-label">所属版权方</span>
-        <StatusBadge :status="hit.origin.policy.status" />
+        <StatusBadge :status="hit.origin.policy.status" :note="hit.origin.policy.note" />
         <span class="dim-id mono">{{ hit.origin.id }}</span>
         <p v-if="hit.origin.policy.note" class="dim-note">{{ hit.origin.policy.note }}</p>
       </li>
@@ -62,7 +62,7 @@ const compositeLabel = computed(() => {
       <li v-for="la in hit.linkedArtists" v-else :key="la.id" class="dim">
         <span class="dim-label">关联艺人</span>
         <template v-if="la.artist">
-          <StatusBadge :status="la.artist.status" />
+          <StatusBadge :status="la.artist.status" :note="la.artist.note" />
           <span class="dim-name-row">
             <span class="dim-id">{{ la.artist.name }}</span>
             <span class="dim-id mono">/{{ la.id }}</span>
