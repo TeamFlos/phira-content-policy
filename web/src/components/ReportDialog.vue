@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
+import { computed } from "vue";
+import { useAnimatedDialog } from "../composables/useAnimatedDialog";
 import { useIssueTemplates } from "../composables/useIssueTemplates";
 
-const dialog = ref<HTMLDialogElement | null>(null);
+const { setDialog, open, close, closeOnBackdrop, closeOnCancel, finishClose } = useAnimatedDialog();
 const issueBase = "https://github.com/TeamFlos/phira-content-policy/issues/new?template=";
 const issuesUrl = "https://github.com/TeamFlos/phira-content-policy/issues";
 const { templates, isLoading } = useIssueTemplates();
@@ -31,24 +32,19 @@ const groupedTemplates = computed(() => {
 function templateUrl(fileName: string): string {
   return `${issueBase}${encodeURIComponent(fileName)}`;
 }
-
-function open(): void {
-  dialog.value?.showModal();
-}
-
-function close(): void {
-  dialog.value?.close();
-}
-
-function closeOnBackdrop(event: MouseEvent): void {
-  if (event.target === dialog.value) close();
-}
 </script>
 
 <template>
   <button type="button" class="report-trigger" @click="open">选择汇报类型</button>
 
-  <dialog ref="dialog" aria-labelledby="report-title" @click="closeOnBackdrop">
+  <dialog
+    :ref="setDialog"
+    class="animated-dialog"
+    aria-labelledby="report-title"
+    @animationend="finishClose"
+    @cancel="closeOnCancel"
+    @click="closeOnBackdrop"
+  >
     <div class="dialog-panel">
       <header class="dialog-head">
         <div>

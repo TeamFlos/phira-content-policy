@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { useAnimatedDialog } from "../composables/useAnimatedDialog";
 import type { RelatedTrack } from "../search/index";
 import StatusBadge from "./StatusBadge.vue";
 
@@ -9,20 +9,8 @@ const props = defineProps<{
   tracks: readonly RelatedTrack[];
 }>();
 
-const dialog = ref<HTMLDialogElement | null>(null);
+const { setDialog, open, close, closeOnBackdrop, closeOnCancel, finishClose } = useAnimatedDialog();
 const dialogTitleId = `track-details-dialog-${Math.random().toString(36).slice(2)}`;
-
-function open(): void {
-  dialog.value?.showModal();
-}
-
-function close(): void {
-  dialog.value?.close();
-}
-
-function closeOnBackdrop(event: MouseEvent): void {
-  if (event.target === dialog.value) close();
-}
 </script>
 
 <template>
@@ -31,7 +19,14 @@ function closeOnBackdrop(event: MouseEvent): void {
     <span aria-hidden="true">↗</span>
   </button>
 
-  <dialog ref="dialog" :aria-labelledby="dialogTitleId" @click="closeOnBackdrop">
+  <dialog
+    :ref="setDialog"
+    class="animated-dialog"
+    :aria-labelledby="dialogTitleId"
+    @animationend="finishClose"
+    @cancel="closeOnCancel"
+    @click="closeOnBackdrop"
+  >
     <div class="dialog-panel">
       <header class="dialog-head">
         <div>
