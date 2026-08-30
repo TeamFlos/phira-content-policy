@@ -3,6 +3,7 @@ import { computed, ref, watch } from "vue";
 import BrowseControls from "./components/BrowseControls.vue";
 import ReportDialog from "./components/ReportDialog.vue";
 import SearchBar from "./components/SearchBar.vue";
+import ScrollJumpButtons from "./components/ScrollJumpButtons.vue";
 import ResultsPanel from "./components/ResultsPanel.vue";
 import { useSearch } from "./composables/useSearch";
 import { policyIndex } from "./search/policyIndex";
@@ -63,6 +64,8 @@ function clearFilters(): void {
     <footer class="container site-foot">
       <p>数据有误，或想补充内容？<ReportDialog />。</p>
     </footer>
+
+    <ScrollJumpButtons />
   </div>
 </template>
 
