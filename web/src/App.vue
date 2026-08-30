@@ -1,12 +1,35 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { computed, ref } from "vue";
+import BrowseControls from "./components/BrowseControls.vue";
+import ReportDialog from "./components/ReportDialog.vue";
 import SearchBar from "./components/SearchBar.vue";
 import ResultsPanel from "./components/ResultsPanel.vue";
 import { useSearch } from "./composables/useSearch";
 import { policyIndex } from "./search/policyIndex";
+import type { ResultKind, SearchOptions, SortMode } from "./search/index";
+import type { Status } from "./data/schema";
 
 const query = ref("");
-const results = useSearch(query);
+const browse = ref(false);
+const kind = ref<ResultKind>("all");
+const status = ref<Status | "all">("all");
+const sort = ref<SortMode>("count");
+const options = computed<SearchOptions>(() => ({
+  browse: browse.value,
+  kind: kind.value,
+  status: status.value,
+  sort: sort.value,
+}));
+const results = useSearch(query, options);
+const hasFilters = computed(
+  () => kind.value !== "all" || status.value !== "all" || sort.value !== "count",
+);
+
+function clearFilters(): void {
+  kind.value = "all";
+  status.value = "all";
+  sort.value = "count";
+}
 </script>
 
 <template>
@@ -18,21 +41,22 @@ const results = useSearch(query);
       </header>
 
       <SearchBar v-model="query" />
+      <BrowseControls
+        v-model:kind="kind"
+        v-model:status="status"
+        v-model:sort="sort"
+        :active="browse"
+        :has-filters="hasFilters"
+        @activate="browse = true"
+        @toggle="browse = !browse"
+        @clear="clearFilters"
+      />
 
       <ResultsPanel :results="results" :stats="policyIndex.stats" />
     </main>
 
     <footer class="container site-foot">
-      <p>
-        数据有误？前往
-        <a
-          href="https://github.com/TeamFlos/phira-content-policy/issues"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Issues</a
-        >
-        汇报。
-      </p>
+      <p>数据有误，或想补充内容？<ReportDialog />。</p>
     </footer>
   </div>
 </template>
