@@ -12,6 +12,7 @@ const props = defineProps<{
 }>();
 
 const dialog = ref<HTMLDialogElement | null>(null);
+const dialogTitleId = `track-details-dialog-${Math.random().toString(36).slice(2)}`;
 
 function open(): void {
   dialog.value?.showModal();
@@ -32,11 +33,11 @@ function closeOnBackdrop(event: MouseEvent): void {
     <span aria-hidden="true">↗</span>
   </button>
 
-  <dialog ref="dialog" :aria-labelledby="`${title}-dialog-title`" @click="closeOnBackdrop">
+  <dialog ref="dialog" :aria-labelledby="dialogTitleId" @click="closeOnBackdrop">
     <div class="dialog-panel">
       <header class="dialog-head">
         <div>
-          <h2 :id="`${title}-dialog-title`">{{ title }}</h2>
+          <h2 :id="dialogTitleId">{{ title }}</h2>
           <p>共 {{ props.tracks.length }} 首曲目</p>
         </div>
         <button type="button" class="close" aria-label="关闭曲目列表" @click="close">×</button>
