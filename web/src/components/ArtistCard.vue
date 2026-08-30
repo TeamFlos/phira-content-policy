@@ -22,7 +22,7 @@ function isHttpUrl(s: string): boolean {
         {{ hit.artist.name }}
         <span class="id mono">/{{ hit.id }}</span>
       </h3>
-      <StatusBadge :status="hit.artist.status" :note="hit.artist.note" />
+      <StatusBadge :status="hit.artist.status" />
     </header>
     <p v-if="hit.artist.reason" class="reason">
       <span class="reason-label">原因</span>
