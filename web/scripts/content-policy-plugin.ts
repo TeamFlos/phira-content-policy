@@ -5,6 +5,7 @@ import { join, relative, resolve, sep } from "node:path";
 import { parse } from "smol-toml";
 import type { Plugin } from "vite";
 import { loadContentPolicy, type LoadError } from "../src/data/loader.js";
+import { buildPinyinDocuments } from "./pinyin-documents.js";
 
 const VIRTUAL_ID = "virtual:content-policy";
 const RESOLVED_ID = "\0" + VIRTUAL_ID;
@@ -239,11 +240,12 @@ export function contentPolicyPlugin(dataDir: string): Plugin {
 
       const metadata = await buildEntryMetadata(absDataDir, tomlPaths);
       const issueTemplates = await loadIssueTemplates(repoRoot, issueTemplatePaths);
+      const pinyinDocuments = buildPinyinDocuments(result.data);
 
       // ContentPolicy is JSON-safe by construction: schema.ts only permits
       // strings, arrays of strings, and records of those. If that ever changes,
       // this stringify becomes lossy/unsafe.
-      return `export const metadata = ${JSON.stringify(metadata)};\nexport const issueTemplates = ${JSON.stringify(issueTemplates)};\nexport default ${JSON.stringify(result.data)};`;
+      return `export const metadata = ${JSON.stringify(metadata)};\nexport const issueTemplates = ${JSON.stringify(issueTemplates)};\nexport const pinyinDocuments = ${JSON.stringify(pinyinDocuments)};\nexport default ${JSON.stringify(result.data)};`;
     },
 
     async handleHotUpdate(ctx) {

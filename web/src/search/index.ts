@@ -1,4 +1,6 @@
 import type { Artist, ContentPolicy, RightsHolderPolicy, Status, TrackEntry } from "../data/schema";
+import { PinyinSearchIndex, type PinyinSearchMatches } from "./pinyinSearch";
+import type { PinyinDocuments } from "./pinyinTypes";
 
 /** forbidden 最严，free 最松；用于综合判定取最严格者 */
 export function severity(s: Status): number {
@@ -64,6 +66,11 @@ export interface SearchIndex {
   tracks: IndexedTrack[];
   rightsHolders: IndexedRightsHolder[];
   artists: IndexedArtist[];
+  pinyin: {
+    tracks: PinyinSearchIndex;
+    rightsHolders: PinyinSearchIndex;
+    artists: PinyinSearchIndex;
+  };
   stats: { tracks: number; rightsHolders: number; artists: number };
 }
 
@@ -96,7 +103,11 @@ function artistMatchesTrack(artist: Artist, indexedTrack: IndexedTrack, artistId
   );
 }
 
-export function buildIndex(policy: ContentPolicy, metadata?: EntryMetadata): SearchIndex {
+export function buildIndex(
+  policy: ContentPolicy,
+  metadata?: EntryMetadata,
+  pinyinDocuments?: PinyinDocuments,
+): SearchIndex {
   const tracks: IndexedTrack[] = [];
   const rightsHolders: IndexedRightsHolder[] = [];
   const artists: IndexedArtist[] = [];
@@ -150,11 +161,31 @@ export function buildIndex(policy: ContentPolicy, metadata?: EntryMetadata): Sea
     });
   }
 
+  if (pinyinDocuments) {
+    const counts = [
+      ["tracks", pinyinDocuments.tracks.length, tracks.length],
+      ["rightsHolders", pinyinDocuments.rightsHolders.length, rightsHolders.length],
+      ["artists", pinyinDocuments.artists.length, artists.length],
+    ] as const;
+    for (const [kind, documentCount, entryCount] of counts) {
+      if (documentCount !== entryCount) {
+        throw new Error(
+          `Pinyin index mismatch for ${kind}: ${documentCount} documents / ${entryCount} entries`,
+        );
+      }
+    }
+  }
+
   return {
     policy,
     tracks,
     rightsHolders,
     artists,
+    pinyin: {
+      tracks: new PinyinSearchIndex(pinyinDocuments?.tracks ?? []),
+      rightsHolders: new PinyinSearchIndex(pinyinDocuments?.rightsHolders ?? []),
+      artists: new PinyinSearchIndex(pinyinDocuments?.artists ?? []),
+    },
     stats: {
       tracks: tracks.length,
       rightsHolders: rightsHolders.length,
@@ -242,6 +273,13 @@ function resolveLinkedArtists(ids: readonly string[], policy: ContentPolicy): Li
   });
 }
 
+function selectedPinyinMatches(
+  result: PinyinSearchMatches,
+  useFuzzy: boolean,
+): ReadonlyMap<number, ReadonlySet<TrackMatchField>> {
+  return useFuzzy ? result.fuzzy : result.direct;
+}
+
 function compositeStatus(
   track: TrackEntry,
   origin: TrackOrigin,
@@ -288,14 +326,31 @@ export function search(
     };
   }
 
+  const emptyPinyinMatches: PinyinSearchMatches = { direct: new Map(), fuzzy: new Map() };
+  const trackPinyinSearch = q === "" ? emptyPinyinMatches : index.pinyin.tracks.search(rawQuery);
+  const rightsHolderPinyinSearch =
+    q === "" ? emptyPinyinMatches : index.pinyin.rightsHolders.search(rawQuery);
+  const artistPinyinSearch = q === "" ? emptyPinyinMatches : index.pinyin.artists.search(rawQuery);
+  const useFuzzyPinyin =
+    trackPinyinSearch.direct.size +
+      rightsHolderPinyinSearch.direct.size +
+      artistPinyinSearch.direct.size ===
+    0;
+  const trackPinyinMatches = selectedPinyinMatches(trackPinyinSearch, useFuzzyPinyin);
+  const rightsHolderPinyinMatches = selectedPinyinMatches(rightsHolderPinyinSearch, useFuzzyPinyin);
+  const artistPinyinMatches = selectedPinyinMatches(artistPinyinSearch, useFuzzyPinyin);
+
   const trackHits: TrackHit[] = [];
   if (options.kind === "all" || options.kind === "tracks")
-    for (const it of index.tracks) {
+    for (const [trackIndex, it] of index.tracks.entries()) {
       const matchedOn: TrackMatchField[] = [];
       if (q !== "") {
         if (it.nameNormalized.includes(q)) matchedOn.push("name");
         if (it.artistNormalized.includes(q)) matchedOn.push("artist");
         if (it.aliasesNormalized.some((a) => a.includes(q))) matchedOn.push("alias");
+        for (const field of trackPinyinMatches.get(trackIndex) ?? []) {
+          if (!matchedOn.includes(field)) matchedOn.push(field);
+        }
         if (matchedOn.length === 0) continue;
       }
       const linked = resolveLinkedArtists(it.track.artistIds ?? [], index.policy);
@@ -314,8 +369,13 @@ export function search(
 
   const rhHits: RightsHolderHit[] = [];
   if (options.kind === "all" || options.kind === "rightsHolders")
-    for (const ir of index.rightsHolders) {
-      if (q !== "" && !ir.nameNormalized.includes(q)) continue;
+    for (const [rightsHolderIndex, ir] of index.rightsHolders.entries()) {
+      if (
+        q !== "" &&
+        !ir.nameNormalized.includes(q) &&
+        !rightsHolderPinyinMatches.has(rightsHolderIndex)
+      )
+        continue;
       if (options.status !== "all" && ir.policy.status !== options.status) continue;
       rhHits.push({
         id: ir.id,
@@ -337,11 +397,12 @@ export function search(
 
   const artistHits: ArtistHit[] = [];
   if (options.kind === "all" || options.kind === "artists")
-    for (const ia of index.artists) {
+    for (const [artistIndex, ia] of index.artists.entries()) {
       if (
         q !== "" &&
         !ia.nameNormalized.includes(q) &&
-        !ia.aliasesNormalized.some((a) => a.includes(q))
+        !ia.aliasesNormalized.some((a) => a.includes(q)) &&
+        !artistPinyinMatches.has(artistIndex)
       )
         continue;
       if (options.status !== "all" && ia.artist.status !== options.status) continue;

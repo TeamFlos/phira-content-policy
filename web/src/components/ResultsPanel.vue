@@ -52,7 +52,8 @@ watch(
       </div>
     </div>
     <p class="hint">
-      输入<b>曲名</b>或<b>作者</b>查曲目；输入<b>版权方</b>或<b>艺人</b>名查策略条目。
+      输入<b>曲名</b>、<b>作者</b>、<b>版权方</b>或<b>艺人</b>；支持全拼、首字母和
+      <span class="mono">pin'yin</span>。
     </p>
   </section>
 

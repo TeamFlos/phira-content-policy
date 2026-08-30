@@ -1,5 +1,6 @@
 declare module "virtual:content-policy" {
   import type { ContentPolicy } from "../data/schema";
+  import type { PinyinDocuments } from "../search/pinyinTypes";
   export const metadata: {
     tracks: Record<string, string>;
     rightsHolders: Record<string, string>;
@@ -11,6 +12,7 @@ declare module "virtual:content-policy" {
     description: string;
     locale: "zh" | "en" | "other";
   }[];
+  export const pinyinDocuments: PinyinDocuments;
   const data: ContentPolicy;
   export default data;
 }
