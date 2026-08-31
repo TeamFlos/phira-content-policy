@@ -9,16 +9,13 @@ import {
 
 interface PendingLink {
   href: string;
-  hostname: string;
   label: string;
   target: string;
 }
 
 const pendingLink = ref<PendingLink | null>(null);
 let suspendedDialog: HTMLDialogElement | null = null;
-const destinationLabel = computed(
-  () => pendingLink.value?.label || pendingLink.value?.hostname || "",
-);
+const destinationLabel = computed(() => pendingLink.value?.label || "外部链接");
 const {
   setDialog,
   open: openDialog,
@@ -41,7 +38,6 @@ function showExternalLink(request: ExternalLinkRequest): void {
 
   pendingLink.value = {
     href: url.href,
-    hostname: url.hostname.replace(/^www\./, ""),
     label: request.label.replace(/\u2060/g, "").trim(),
     target: request.target || "_self",
   };
@@ -66,7 +62,10 @@ function handleDocumentClick(event: MouseEvent): void {
 
   const result = openLink({
     href: anchor.href,
-    label: anchor.textContent?.replace(/\u2060/g, "").trim() ?? "",
+    label:
+      anchor.dataset.externalLabel?.replace(/\u2060/g, "").trim() ||
+      anchor.textContent?.replace(/\u2060/g, "").trim() ||
+      "",
     sourceDialog: anchor.closest<HTMLDialogElement>("dialog[open]"),
     target: anchor.target || "_self",
   });
@@ -124,7 +123,6 @@ onBeforeUnmount(() => {
       <div v-if="pendingLink" class="destination">
         <span class="destination-caption">即将访问</span>
         <strong>{{ destinationLabel }}</strong>
-        <span class="destination-host">{{ pendingLink.hostname }}</span>
         <span class="destination-url mono">{{ pendingLink.href }}</span>
       </div>
 
@@ -234,10 +232,6 @@ dialog::backdrop {
   font-size: 14px;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-.destination-host {
-  color: var(--color-text-secondary);
-  font-size: 12px;
 }
 .destination-url {
   margin-top: var(--space-1);

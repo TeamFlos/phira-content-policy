@@ -20,15 +20,9 @@ function openRequestedLink(event: Event, href: string, label: string): void {
   });
 }
 
-function handlePointerDown(event: PointerEvent, href: string, label: string): void {
-  if (event.button !== 0) return;
-  event.stopPropagation();
-  openRequestedLink(event, href, label);
-}
-
 function handleClick(event: MouseEvent, href: string, label: string): void {
   event.preventDefault();
-  if (event.detail !== 0) return;
+  event.stopPropagation();
   openRequestedLink(event, href, label);
 }
 </script>
@@ -42,7 +36,6 @@ function handleClick(event: MouseEvent, href: string, label: string): void {
       target="_blank"
       rel="noopener noreferrer"
       :aria-label="`${segment.text}（在新标签页打开）`"
-      @pointerdown="handlePointerDown($event, segment.href, segment.text)"
       @click="handleClick($event, segment.href, segment.text)"
     >
       {{ segment.text }}&#8288;<svg

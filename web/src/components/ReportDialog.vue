@@ -70,6 +70,7 @@ function templateUrl(fileName: string): string {
               :href="templateUrl(template.fileName)"
               target="_blank"
               rel="noopener noreferrer"
+              :data-external-label="report.name"
               >{{ template.locale === "zh" ? "中文" : template.locale === "en" ? "EN" : "打开" }}</a
             >
           </div>
